@@ -126,7 +126,7 @@ button {
 /* Styling Rules Pop Up - Hidden by default */
 
 .rules {
-    display: block;
+    display: none;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
