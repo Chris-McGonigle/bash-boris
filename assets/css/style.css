@@ -64,8 +64,15 @@ body {
     top: 20px;
     right: 20px;
 }
-i {
-    font-size: 0.6em;
+.hit {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+.no-hit {
+    position: absolute;
+    top: 80px;
+    left: 5px;
 }
 
 /* Style Start and Rules Buttons */
