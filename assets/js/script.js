@@ -91,5 +91,5 @@ let totalClicks = document.getElementById("hole-area"),
     count = 0;
 totalClicks.onclick = function(){
     count ++;
-    numberMiss.textContent = count - numberHits;
+    numberMiss.textContent = count - score;
 }
