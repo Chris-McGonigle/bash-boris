@@ -31,6 +31,7 @@ body {
     transform: translate(-50%, -50%);
     background-image: url(../images/10-downing-street-bg.png);
     background-size: cover;
+    cursor: url(../images/cursor-protocol.png), crosshair;
 }
 
 /* Style Score Counter and Timer */

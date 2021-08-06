@@ -48,3 +48,4 @@ function whack() {
     let hitSound = document.getElementById("whack-sound");
     hitSound.play()
 }
+
