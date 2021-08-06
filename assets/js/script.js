@@ -93,3 +93,14 @@ totalClicks.onclick = function(){
     count ++;
     numberMiss.textContent = count - score;
 }
+
+// Functions to open and close rules pop up
+
+function openRules {
+    let rulesWindow = document.getElementById('rules')
+    rulesWindow.style.display = "block"
+}
+
+function closeRules {
+    rulesWindow.style.display = "none"
+}
