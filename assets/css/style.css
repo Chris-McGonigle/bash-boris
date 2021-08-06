@@ -123,9 +123,10 @@ button {
     transition: 0.5 ease-in-out;
 }
 
-/* Styling Rules Pop Up - Hidden by default */
+/* Styling Rules and Feedback Pop Up - Hidden by default */
 
-.rules {
+.rules,
+.feedback {
     display: none;
     position: absolute;
     left: 50%;
@@ -139,7 +140,8 @@ button {
     z-index: 100;
 }
 
-.rules-title {
+.rules-title,
+.feedback-title {
     display: flex;
     justify-content: space-evenly;
 }
