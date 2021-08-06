@@ -85,5 +85,6 @@ button {
 .mole-hole {
     border: 2px solid yellow;
     flex: 1 0 33.33%;
-
+    position: relative;
 }
+
