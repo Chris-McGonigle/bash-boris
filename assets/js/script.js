@@ -71,3 +71,16 @@ function countDownTimer() {
         timer.textContent = timer;
     }
 }
+
+// Event Listener to see if successful hit
+
+borisMole.forEach(boris => boris.addEventListener('click',success));
+
+// Function to count hits and increase score
+
+function success(e) {
+    if(!e.isTrusted) return; // someone is cheating!!!
+    score++;
+    this.parentNode.classList.remove('peek');
+    numberHits.textContent = score;
+}
