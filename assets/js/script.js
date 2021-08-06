@@ -4,6 +4,7 @@ const holes = document.querySelectorAll('.mole-hole');
 const numberHits = document.querySelector('.score');
 const numberMiss = document.querySelector('.miss');
 const borisMole = document.querySelectorAll('.boris');
+const gameBoard = document.querySelector('.hole-area');
 
 const timer = document.querySelector('.time');
 
@@ -37,4 +38,13 @@ function borisUp() {
         chosenHole.classList.remove('peek');
         if (!timeUp) borisUp();
     }, time);        
+}
+
+// Function to add whack sound everytime a mouse is clicked
+
+gameBoard.addEventListener('click', whack);
+
+function whack() {
+    let hitSound = document.getElementById("whack-sound");
+    hitSound.play()
 }

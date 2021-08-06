@@ -122,16 +122,3 @@ button {
     transition: 0.5 ease-in-out;
 }
 
-.mole-hole.miss .boris {
-    background-image: url(../images/boris-miss.png);
-    position: absolute;
-    top: 0;
-    animation-name: missed;
-    animation-duration: 1s;
-
-}
-
-@keyframes missed {
-    0% {top:0;}
-    100% {top:100%;}
-}
