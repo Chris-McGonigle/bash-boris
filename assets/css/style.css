@@ -57,10 +57,16 @@ body {
 
 .instructions {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-end;
     position: absolute;
     bottom: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 50px;
+    outline: none;
 }
