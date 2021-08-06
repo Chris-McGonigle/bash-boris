@@ -6,12 +6,13 @@ const numberMiss = document.querySelector('.miss');
 const borisMole = document.querySelectorAll('.boris');
 const gameBoard = document.querySelector('.hole-area');
 
-const timer = document.querySelector('.time');
+const timer = document.getElementById("time-left");
 
 // Start of game variables - values will change throughout game session
 
-let timeup = false;
+let timeUp = false;
 let timeLimit = 30000;
+let timeLeft = timer.textContent;
 let score = 0;
 let countdown;
 let lastHole;
@@ -52,23 +53,21 @@ function whack() {
 // Function to start timed game
 
 function startTimedGame() {
-    countdown = timeLimit/1000;
     numberHits.textContent = 0;
+    score = 0;
     numberMiss.textContent = 0;
     timer.textContent = 30;
-    timeUp = false;
-    score = 0;
     borisUp();
     setInterval(countDownTimer,1000);
     setTimeout(() => timeUp = true, 30000);
-}
+    }
 
 // Function to control a countdown timer
 
 function countDownTimer() {
-    if(timer > 0) {
-        timer--;
-        timer.textContent = timer;
+    if(timeLeft > 0) {
+        timeLeft--;
+        timer.textContent = timeLeft;
     }
 }
 
