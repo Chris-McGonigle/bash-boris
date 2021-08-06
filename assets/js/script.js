@@ -49,3 +49,17 @@ function whack() {
     hitSound.play()
 }
 
+// Function to start timed game
+
+function startTimedGame() {
+    countdown = timeLimit/1000;
+    numberHits.textContent = 0;
+    numberMiss.textContent = 0;
+    timer.textContent = countdown;
+    timeUp = false;
+    score = 0;
+    borisUp();
+    setInterval(countDownTimer,1000);
+    setTimeout(() => timeUp = true, 30000);
+    }
+}
