@@ -83,8 +83,21 @@ button {
 }
 
 .mole-hole {
-    border: 2px solid yellow;
     flex: 1 0 33.33%;
     position: relative;
 }
 
+.mole-hole:after {
+    content: '';
+    display: block;
+    background-image: url(../images/manhole.png);
+    transform: scale(1.5);
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 25%;
+    z-index: 2;
+    bottom: -10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
