@@ -100,3 +100,18 @@ button {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* Styling mole - mole hidden by default */
+
+.boris {
+    background-image: url(../images/boris-popup.png);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transition: 0.5s;
+    background-size: 60%;
+    z-index: 3;
+}
