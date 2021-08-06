@@ -105,3 +105,15 @@ function closeRules() {
     let rulesWindow = document.getElementById('rules');
     rulesWindow.style.display = "none";
 }
+
+// Functions to open and close feedback pop up
+
+function openFeedback() {
+    let rulesWindow = document.getElementById('feedback');
+    rulesWindow.style.display = "block";
+}
+
+function closeFeedback() {
+    let rulesWindow = document.getElementById('feedback');
+    rulesWindow.style.display = "none";
+}
