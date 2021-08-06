@@ -26,3 +26,23 @@ body {
     background-image: url(../images/10-downing-street-bg.png);
     background-size: cover;
 }
+
+/* Style Score Counter and Timer */
+
+.score,
+.time {
+    color: #ed4d29;
+    font-size: 5em;
+}
+
+.score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.time {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
