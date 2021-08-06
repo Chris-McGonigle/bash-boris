@@ -84,3 +84,12 @@ function success(e) {
     this.parentNode.classList.remove('peek');
     numberHits.textContent = score;
 }
+
+// Function to count misses and increase miss count
+
+let totalClicks = document.getElementById("hole-area"),
+    count = 0;
+totalClicks.onclick = function(){
+    count ++;
+    numberMiss.textContent = count - numberHits;
+}
