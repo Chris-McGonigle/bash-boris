@@ -60,7 +60,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     position: absolute;
-    bottom: 50px;
+    bottom: 0;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -69,4 +69,13 @@ button {
     cursor: pointer;
     padding: 10px 50px;
     outline: none;
+}
+
+/* Style mole hole area */
+
+.hole-area {
+    border: 1px solid black;
+    width: 800px;
+    height: 400px;
+    margin: 50px auto 0 auto;
 }
