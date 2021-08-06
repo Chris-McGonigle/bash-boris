@@ -46,3 +46,15 @@ body {
     top: 20px;
     right: 20px;
 }
+
+/* Style Start and Rules Buttons */
+
+.instructions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
