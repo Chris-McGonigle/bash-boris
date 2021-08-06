@@ -123,3 +123,23 @@ button {
     transition: 0.5 ease-in-out;
 }
 
+/* Styling Rules Pop Up - Hidden by default */
+
+.rules {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 400ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    z-index: 100;
+}
+
+.rules-title {
+    display: flex;
+    justify-content: space-evenly;
+}
