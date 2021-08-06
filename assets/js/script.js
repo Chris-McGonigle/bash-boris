@@ -9,7 +9,7 @@ const timer = document.querySelector('.time');
 
 // Start of game variables - values will change throughout game session
 
-let timeUp = false;
+let timeup = false;
 let timeLimit = 30000;
 let score = 0;
 let countdown;
@@ -30,7 +30,7 @@ function selectHole(holes) {
 // Function to animate mole up and hide after random period of time until game over timer
 
 function borisUp() {
-    let time = Math.random() * 2500 + 500;
+    let time = Math.random() * 1500 + 500;
     let chosenHole = selectHole(holes);
     chosenHole.classList.add('peek');
     setTimeout(function(){
