@@ -55,11 +55,19 @@ function startTimedGame() {
     countdown = timeLimit/1000;
     numberHits.textContent = 0;
     numberMiss.textContent = 0;
-    timer.textContent = countdown;
+    timer.textContent = 30;
     timeUp = false;
     score = 0;
     borisUp();
     setInterval(countDownTimer,1000);
     setTimeout(() => timeUp = true, 30000);
+}
+
+// Function to control a countdown timer
+
+function countDownTimer() {
+    if(timer > 0) {
+        timer--;
+        timer.textContent = timer;
     }
 }
