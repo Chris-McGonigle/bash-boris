@@ -116,3 +116,15 @@ function openFeedback() {
 function closeFeedback() {
     feedbackWindow.style.display = "none";
 }
+
+// Functions to open and close scores pop up
+
+var scoreWindow = document.getElementById('final-score');
+
+function openScore() {
+    scoreWindow.style.display = "block";
+}
+
+function closeScore() {
+    scoreWindow.style.display = "none";
+}
