@@ -134,7 +134,7 @@ function openScore() {
     feedbackWindow.style.display = "none";
     rulesWindow.style.display = "none";
 
-    document.getElementById("fscore").innerHTML = `${numberHits}`;
+    document.getElementById("fscore").textContent = score ;
 }
 
 function closeScore() {
