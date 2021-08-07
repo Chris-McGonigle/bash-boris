@@ -147,7 +147,8 @@ button {
 /* Styling Rules and Feedback Pop Up - Hidden by default */
 
 .rules,
-.feedback {
+.feedback,
+.final-score {
     display: none;
     position: absolute;
     left: 50%;
@@ -166,3 +167,4 @@ button {
     display: flex;
     justify-content: space-evenly;
 }
+
