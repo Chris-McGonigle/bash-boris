@@ -95,13 +95,13 @@ totalClicks.onclick = function(){
 
 // Functions to open and close rules pop up
 
+var rulesWindow = document.getElementById('rules')
+
 function openRules() {
-    let rulesWindow = document.getElementById('rules');
     rulesWindow.style.display = "block";
 }
 
 function closeRules() {
-    let rulesWindow = document.getElementById('rules');
     rulesWindow.style.display = "none";
 }
 
