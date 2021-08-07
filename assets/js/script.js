@@ -133,6 +133,8 @@ function openScore() {
     scoreWindow.style.display = "block";
     feedbackWindow.style.display = "none";
     rulesWindow.style.display = "none";
+
+    document.getElementById("fscore").innerHTML = `${numberHits}`;
 }
 
 function closeScore() {
