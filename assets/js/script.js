@@ -99,9 +99,13 @@ var rulesWindow = document.getElementById('rules');
 
 function openRules() {
     rulesWindow.style.display = "block";
+    scoreWindow.style.display = "none";
+    feedbackWindow.style.display = "none";
 }
 
 function closeRules() {
+    scoreWindow.style.display = "none";
+    feedbackWindow.style.display = "none";
     rulesWindow.style.display = "none";
 }
 
@@ -111,10 +115,14 @@ var feedbackWindow = document.getElementById('feedback');
 
 function openFeedback() {
     feedbackWindow.style.display = "block";
+    scoreWindow.style.display = "none";
+    rulesWindow.style.display = "none";
 }
 
 function closeFeedback() {
+    scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
+    rulesWindow.style.display = "none";
 }
 
 // Functions to open and close scores pop up
@@ -123,8 +131,12 @@ var scoreWindow = document.getElementById('final-score');
 
 function openScore() {
     scoreWindow.style.display = "block";
+    feedbackWindow.style.display = "none";
+    rulesWindow.style.display = "none";
 }
 
 function closeScore() {
     scoreWindow.style.display = "none";
+    feedbackWindow.style.display = "none";
+    rulesWindow.style.display = "none";
 }
