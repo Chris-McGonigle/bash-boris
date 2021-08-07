@@ -95,7 +95,7 @@ totalClicks.onclick = function(){
 
 // Functions to open and close rules pop up
 
-var rulesWindow = document.getElementById('rules')
+var rulesWindow = document.getElementById('rules');
 
 function openRules() {
     rulesWindow.style.display = "block";
@@ -107,12 +107,12 @@ function closeRules() {
 
 // Functions to open and close feedback pop up
 
+var feedbackWindow = document.getElementById('feedback');
+
 function openFeedback() {
-    let rulesWindow = document.getElementById('feedback');
-    rulesWindow.style.display = "block";
+    feedbackWindow.style.display = "block";
 }
 
 function closeFeedback() {
-    let rulesWindow = document.getElementById('feedback');
-    rulesWindow.style.display = "none";
+    feedbackWindow.style.display = "none";
 }
