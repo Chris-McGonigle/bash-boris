@@ -166,3 +166,16 @@ button {
     justify-content: space-evenly;
 }
 
+/* Styling star rating in feedback form */
+
+.star-container {
+    width: 400px;
+    background-color: rgba(106, 136, 156, 0.9);
+    padding: 20px 30px;
+    border: 1px solid #ed4d29;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
