@@ -88,23 +88,34 @@
             <button id="close-feedback" class="close-btn" onclick="closeFeedback()">&times;</button>
         </div>
 
-        <div class="star-container">
+        <form action="https://formdump.codeinstitute.net/" method="POST">
 
-            <div class="star-rating">
-                <input type="radio" name="rate" id="rate-5">
-                <label for="rate-5" class="fas fa-star"></label>
-                <input type="radio" name="rate" id="rate-4">
-                <label for="rate-4" class="fas fa-star"></label>
-                <input type="radio" name="rate" id="rate-3">
-                <label for="rate-3" class="fas fa-star"></label>
-                <input type="radio" name="rate" id="rate-2">
-                <label for="rate-2" class="fas fa-star"></label>
-                <input type="radio" name="rate" id="rate-1">
-                <label for="rate-1" class="fas fa-star"></label>
+            <div class="star-container">
+                <div class="star-rating">
+                    <input type="radio" name="rate" id="rate-5">
+                    <label for="rate-5" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-4">
+                    <label for="rate-4" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-3">
+                    <label for="rate-3" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-2">
+                    <label for="rate-2" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-1">
+                    <label for="rate-1" class="fas fa-star"></label>
+                </div>
+            </div> 
+            
+            <h3>I don't like it</h3>
+
+            <div class="textarea">
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
             </div>
 
-        </div>    
-        <div class="feedback-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, necessitatibus illo. Aperiam reprehenderit at nihil eligendi sit quas beatae veritatis.</div>
+            <div class="submit-button">
+                <button type="submit">Submit/button>
+            </div>
+
+        </form>      
     </div>
 
     <!--Div to contain scores pop up at game end-->
