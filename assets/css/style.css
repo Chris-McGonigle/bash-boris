@@ -101,6 +101,24 @@ button {
     outline: none;
 }
 
+.instructions button {
+    border: 1px solid #ed4d29;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color:#ed4d29;
+    color: #40525e;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.instructions button:hover {
+    color:#ed4d29;
+    background-color: #40525e;
+}
+
 /* Style mole hole area */
 
 .hole-area {
