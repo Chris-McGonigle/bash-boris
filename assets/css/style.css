@@ -208,5 +208,22 @@ form h3 {
     margin: 5px 0 20px 0;
     text-align: center;
     transition: all 0.3s ease;
+}
 
+form .textarea {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ed4d29;
+    color: #fff;
+    background-color: #444;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
 }
