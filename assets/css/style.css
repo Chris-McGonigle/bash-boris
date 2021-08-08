@@ -152,6 +152,7 @@ button {
 .final-score h2 {
     color: #20292f;
     font-size: 30px;
+    margin-top: 20px;
 }
 
 .final-score p {
@@ -161,6 +162,9 @@ button {
 
 .fscorebtn {
     border: 1px solid #ed4d29;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
     outline: none;
     background-color:#ed4d29;
     color: #40525e;
