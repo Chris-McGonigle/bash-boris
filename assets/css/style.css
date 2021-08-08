@@ -170,6 +170,10 @@ button {
     justify-content: space-evenly;
 }
 
+.feedback-title h2 {
+    color: #2a363e
+}
+
 #close-feedback {
     position: absolute;
     top: 5px;
@@ -269,6 +273,7 @@ form .textarea {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    color: #2a363e
 }
 
 form .textarea textarea {
@@ -276,7 +281,7 @@ form .textarea textarea {
     width: 100%;
     outline: none;
     border: 1px solid #ed4d29;
-    color: #444;
+    color: #2a363e;
     background-color: rgba(106, 136, 156, 0.9);
     padding: 10px;
     font-size: 15px;
@@ -301,8 +306,8 @@ form .submit-button button {
     width: 100%;
     border: 1px solid #ed4d29;
     outline: none;
-    background-color: rgba(106, 136, 156, 0.9);
-    color: #ed4d29;
+    background-color:#ed4d29;
+    color: #40525e;
     font-size: 15px;
     font-weight: 900;
     cursor: pointer;
@@ -310,5 +315,8 @@ form .submit-button button {
 }
 
 form .submit-button button:hover {
-    background: #40525e;
+    color:#ed4d29;
+    background-color: #40525e;
 }
+
+
