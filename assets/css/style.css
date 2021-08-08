@@ -199,3 +199,14 @@ input:not(:checked) ~ label:hover ~label {
 input:checked ~ label {
     color: #ed4d29;
 } 
+
+form h3 {
+    width: 100%;
+    font-size: 25px;
+    color: #ed4d29;
+    font-weight: 600;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+
+}
