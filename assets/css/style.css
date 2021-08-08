@@ -253,4 +253,9 @@ form .submit-button button {
     font-size: 15px;
     font-weight: 900;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form .submit-button button:hover {
+    background: #40525e;
 }
