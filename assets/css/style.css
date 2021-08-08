@@ -45,6 +45,8 @@ body {
     font-size: 5em;
 }
 
+/* Style individual counter elements */
+
 .score {
     position: absolute;
     top: 20px;
@@ -200,6 +202,8 @@ input:checked ~ label {
     color: #ed4d29;
 } 
 
+/* Styling form text rating area */
+
 form h3 {
     width: 100%;
     font-size: 25px;
@@ -209,6 +213,8 @@ form h3 {
     text-align: center;
     transition: all 0.3s ease;
 }
+
+/* Style form text area */
 
 form .textarea {
     height: 100%;
@@ -221,9 +227,30 @@ form .textarea textarea {
     width: 100%;
     outline: none;
     border: 1px solid #ed4d29;
-    color: #fff;
-    background-color: #444;
+    color: #444;
+    background-color: rgba(106, 136, 156, 0.9);
     padding: 10px;
     font-size: 15px;
+    font-weight: 900;
     resize: none;
+}
+
+/* Style form button */
+
+form .submit-button {
+    height: 45px;
+    width: 100px;
+    margin: 15px 0;
+}
+
+form .submit-button button {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ed4d29;
+    outline: none;
+    background-color: #444;
+    color: #ed4d29;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
 }
