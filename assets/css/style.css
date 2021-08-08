@@ -41,6 +41,7 @@ body {
 .time,
 .miss {
     color: #ed4d29;
+    background-color: rgba(106, 136, 156, 0.9);
     font-size: 5em;
 }
 
