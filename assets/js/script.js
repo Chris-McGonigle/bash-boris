@@ -114,7 +114,7 @@ function closeRules() {
 var feedbackWindow = document.getElementById('feedback');
 
 function openFeedback() {
-    feedbackWindow.style.display = "block";
+    feedbackWindow.style.display = "flex";
     scoreWindow.style.display = "none";
     rulesWindow.style.display = "none";
 }
@@ -123,6 +123,17 @@ function closeFeedback() {
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
     rulesWindow.style.display = "none";
+}
+
+// Function to display thank you message after rating submit
+
+var fbtn = document.getElementById("feedback-submit");
+var submitted = document.querySelector(".submitted");
+var rating = document.querySelector("star-rating");
+
+fbtn.onclick = () => {
+    rating.style.display = "none";
+    submitted.style.display = "block";
 }
 
 // Functions to open and close scores pop up
