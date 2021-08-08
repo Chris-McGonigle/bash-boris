@@ -226,13 +226,21 @@ input#rate-5:checked ~ label {
     content: "This is the best thing ever!!!";
 }
 
+.star-container form {
+    display: none;
+}
+
+input:checked ~ form {
+    display: block;
+}
+
 /* Styling form text rating area */
 
 form header {
     width: 100%;
     font-size: 25px;
-    color: #5f7a8c;
-    font-weight: 600;
+    color: #ed4d29;
+    font-weight: 900;
     margin: 5px 0 20px 0;
     text-align: center;
     transition: all 0.3s ease;
