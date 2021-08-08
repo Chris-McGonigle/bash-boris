@@ -182,5 +182,11 @@ button {
 
 .star-container .star-rating input {
     display: none;
-    
 } 
+
+.star-rating label {
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    float: right;
+}
