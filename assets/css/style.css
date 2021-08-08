@@ -174,7 +174,7 @@ button {
     position: absolute;
     top: 5px;
     right: 10px;
-f   ont-size: 20px;
+    font-size: 20px;
 }
 
 /* Styling star rating in feedback form */
@@ -290,6 +290,10 @@ form .submit-button {
     height: 45px;
     width: 100px;
     margin: 15px 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 250px;
 }
 
 form .submit-button button {
