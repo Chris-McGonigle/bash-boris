@@ -180,6 +180,8 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 400ms ease-in-out;
+    color: #20292f;
+    font-weight: 900;
     border: 1px solid #ed4d29;
     border-radius: 10px;
     background-color: rgba(106, 136, 156, 0.9);
