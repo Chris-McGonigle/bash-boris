@@ -145,7 +145,6 @@ button {
 
 /* Styling Rules and Feedback Pop Up - Hidden by default */
 
-.rules,
 .feedback,
 .final-score {
     display: none;
@@ -170,11 +169,46 @@ button {
     justify-content: space-evenly;
 }
 
+/* Styling Rules Pop up */
+
+.rules {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 400ms ease-in-out;
+    border: 1px solid #ed4d29;
+    border-radius: 10px;
+    background-color: rgba(106, 136, 156, 0.9);
+    width: 600px;
+    height: 400px;
+    z-index: 100;
+}
+
+.rules-body {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.rules-body p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rules-title {
+    margin-top: 20px;
+}
+
 .feedback-title h2 {
     color: #2a363e
 }
 
-#close-feedback {
+#close-feedback,
+#close-rules {
     position: absolute;
     top: 5px;
     right: 10px;

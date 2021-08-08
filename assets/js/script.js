@@ -98,7 +98,7 @@ totalClicks.onclick = function(){
 var rulesWindow = document.getElementById('rules');
 
 function openRules() {
-    rulesWindow.style.display = "block";
+    rulesWindow.style.display = "flex";
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
 }
