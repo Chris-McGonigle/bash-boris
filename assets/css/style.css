@@ -189,4 +189,13 @@ button {
     color: #444;
     padding: 10px;
     float: right;
+    transition: all 0.2s ease;
 }
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~label {
+    color: #ed4d29;
+}
+
+input:checked ~ label {
+    color: #ed4d29;
+} 
