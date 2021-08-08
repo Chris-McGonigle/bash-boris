@@ -171,6 +171,7 @@ button {
 /* Styling star rating in feedback form */
 
 .star-container {
+    position: relative;
     width: 400px;
     background-color: rgba(106, 136, 156, 0.9);
     padding: 20px 30px;
@@ -194,20 +195,43 @@ button {
     transition: all 0.2s ease;
 }
 input:not(:checked) ~ label:hover,
-input:not(:checked) ~ label:hover ~label {
+input:not(:checked) ~ label:hover ~ label {
     color: #ed4d29;
 }
 
 input:checked ~ label {
     color: #ed4d29;
-} 
+}
+
+/* Style to change form header based on star selection */
+
+input#rate-5:checked ~ label {
+    color: #5f7a8c;
+    text-shadow: 0 0 20px rgba(106, 136, 156, 0.9);
+}
+
+#rate-1:checked ~ form header:before {
+    content: "I hate it";
+}
+#rate-2:checked ~ form header:before {
+    content: "I don't like it";
+}
+#rate-3:checked ~ form header:before {
+    content: "I like it";
+}
+#rate-4:checked ~ form header:before {
+    content: "I love it";
+}
+#rate-5:checked ~ form header:before {
+    content: "This is the best thing ever!!!";
+}
 
 /* Styling form text rating area */
 
-form h3 {
+form header {
     width: 100%;
     font-size: 25px;
-    color: #ed4d29;
+    color: #5f7a8c;
     font-weight: 600;
     margin: 5px 0 20px 0;
     text-align: center;
