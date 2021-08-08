@@ -19,7 +19,6 @@ body {
 /* Style main game board and background */
 
 .game-board {
-    border: 1px solid black;
     width: 95%;
     max-width: 900px;
     height: 80vh;
