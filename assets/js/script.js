@@ -48,7 +48,7 @@ gameBoard.addEventListener('click', whack);
 
 function whack() {
     let hitSound = document.getElementById("whack-sound");
-    hitSound.play()
+    hitSound.play();
 }
 
 // Function to start timed game

@@ -16,6 +16,15 @@ body {
     background-color: #6A889C;
   }
 
+/* Style game title */
+
+.game-title {
+    text-align: center;
+    font-size: 1.75em;
+    padding-top: 10px;
+    color: #ed4d29;
+}
+
 /* Style main game board and background */
 
 .game-board {
