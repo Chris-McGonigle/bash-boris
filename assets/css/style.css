@@ -179,3 +179,8 @@ button {
     justify-content: center;
     flex-direction: column;
 }
+
+.star-container .star-rating input {
+    display: none;
+    
+} 
