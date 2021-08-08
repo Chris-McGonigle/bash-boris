@@ -53,6 +53,9 @@ function whack() {
 // Function to start timed game
 
 function startTimedGame() {
+    scoreWindow.style.display = "none";
+    feedbackWindow.style.display = "none";
+    rulesWindow.style.display = "none";
     numberHits.textContent = 0;
     score = 0;
     numberMiss.textContent = 0;
