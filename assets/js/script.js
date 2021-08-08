@@ -38,6 +38,7 @@ function borisUp() {
     setTimeout(function(){
         chosenHole.classList.remove('peek');
         if (!timeUp) borisUp();
+        else openScore();
     }, time);        
 }
 
