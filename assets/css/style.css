@@ -248,7 +248,7 @@ form .submit-button button {
     width: 100%;
     border: 1px solid #ed4d29;
     outline: none;
-    background-color: #444;
+    background-color: rgba(106, 136, 156, 0.9);
     color: #ed4d29;
     font-size: 15px;
     font-weight: 900;
