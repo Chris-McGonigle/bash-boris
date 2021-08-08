@@ -206,7 +206,7 @@ button {
 }
 
 .feedback-title h2 {
-    color: #2a363e
+    color: #20292f;
 }
 
 #close-feedback,
@@ -296,7 +296,7 @@ input:checked ~ form {
 form header {
     width: 100%;
     font-size: 25px;
-    color: #ed4d29;
+    color: #20292f;
     font-weight: 900;
     margin: 5px 0 20px 0;
     text-align: center;
@@ -309,7 +309,7 @@ form .textarea {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    color: #2a363e
+    color: #20292f;
 }
 
 form .textarea textarea {
@@ -317,7 +317,7 @@ form .textarea textarea {
     width: 100%;
     outline: none;
     border: 1px solid #ed4d29;
-    color: #2a363e;
+    color: #20292f;
     background-color: rgba(106, 136, 156, 0.9);
     padding: 10px;
     font-size: 15px;
