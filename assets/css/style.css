@@ -206,7 +206,7 @@ input:checked ~ label {
 /* Style to change form header based on star selection */
 
 input#rate-5:checked ~ label {
-    color: #5f7a8c;
+    color: #ed4d29;
     text-shadow: 0 0 20px rgba(106, 136, 156, 0.9);
 }
 

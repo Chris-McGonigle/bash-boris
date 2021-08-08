@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <title>Bash Boris</title>
 </head>
+
 <body>
 
     <!--Site header-->
@@ -21,119 +23,125 @@
 
     <main>
 
-    <div class="game-board">
+        <div class="game-board">
 
-        <!--Countdown Timer and Score Keeping Area-->
+            <!--Countdown Timer and Score Keeping Area-->
 
-        <div class="time-score-area">
-            <div class="hit">HITS:<span class="score">0</span></div>
-            <div class="no-hit">MISSES:<span class="miss">0</span></div>
-            <div class="time"><span id="time-left">30</span></div>
-            <div class="sound"></div>
-        </div>
-
-        <!-- Main Game Board-->
-
-        <div class="hole-area" id="hole-area">
-            <div class="mole-hole hole1">
-                <div class="boris boris-miss boris-hit"></div>
+            <div class="time-score-area">
+                <div class="hit">HITS:<span class="score">0</span></div>
+                <div class="no-hit">MISSES:<span class="miss">0</span></div>
+                <div class="time"><span id="time-left">30</span></div>
+                <div class="sound"></div>
             </div>
-            <div class="mole-hole hole2">
-                <div class="boris boris-miss boris-hit"></div>
-            </div>
-            <div class="mole-hole hole3">
-                <div class="boris boris-miss boris-hit"></div>
-            </div>
-            <div class="mole-hole hole4">
-                <div class="boris boris-miss boris-hit"></div>
-            </div>
-            <div class="mole-hole hole5">
-                <div class="boris boris-miss boris-hit"></div>
-            </div>
-            <div class="mole-hole hole6">
-                <div class="boris boris-miss boris-hit"></div>
-            </div>
-        </div>
 
-    </div>
+            <!-- Main Game Board-->
 
-    <!--Game Start and Rules Area-->
-
-    <div class="instructions">
-
-        <div class="start-game">
-            <button class="start" onclick="startTimedGame()">Start Game</button>
-        </div>
-        <div class="rules-open">
-            <button class="rules-button" onclick="openRules()">How to Play</button>
-        
-    </div>
-
-    <!-- Div to contain rules pop up-->
-
-    <div class="rules" id="rules">
-        <div class="rules-title">
-            <div><h2>How to Play</h2></div>
-            <button id="close-rules" class="close-btn" onclick="closeRules()">&times;</button>
-        </div>
-        <div class="rules-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, necessitatibus illo. Aperiam reprehenderit at nihil eligendi sit quas beatae veritatis.</div>
-    </div>
-
-    <!-- Div to contain feedback pop up - Star rating adapted from Coding Nepal Tutorial-->
-
-    <div class="feedback" id="feedback">
-
-        <div class="feedback-title">
-            <div><h2>Rate our Game</h2></div>
-            <button id="close-feedback" class="close-btn" onclick="closeFeedback()">&times;</button>
-        </div>
-
-        <form action="https://formdump.codeinstitute.net/" method="POST">
-
-            <div class="star-container">
-                <div class="star-rating">
-                    <input type="radio" name="rate" id="rate-5">
-                    <label for="rate-5" class="fas fa-star"></label>
-                    <input type="radio" name="rate" id="rate-4">
-                    <label for="rate-4" class="fas fa-star"></label>
-                    <input type="radio" name="rate" id="rate-3">
-                    <label for="rate-3" class="fas fa-star"></label>
-                    <input type="radio" name="rate" id="rate-2">
-                    <label for="rate-2" class="fas fa-star"></label>
-                    <input type="radio" name="rate" id="rate-1">
-                    <label for="rate-1" class="fas fa-star"></label>
-                    <header>Placeholder</header>
+            <div class="hole-area" id="hole-area">
+                <div class="mole-hole hole1">
+                    <div class="boris boris-miss boris-hit"></div>
                 </div>
-            </div> 
-            <div class="textarea">
-                <textarea name="comment" id="comment" cols="30" placeholder="Please enter any comments you have here..."></textarea>
+                <div class="mole-hole hole2">
+                    <div class="boris boris-miss boris-hit"></div>
+                </div>
+                <div class="mole-hole hole3">
+                    <div class="boris boris-miss boris-hit"></div>
+                </div>
+                <div class="mole-hole hole4">
+                    <div class="boris boris-miss boris-hit"></div>
+                </div>
+                <div class="mole-hole hole5">
+                    <div class="boris boris-miss boris-hit"></div>
+                </div>
+                <div class="mole-hole hole6">
+                    <div class="boris boris-miss boris-hit"></div>
+                </div>
             </div>
 
-            <div class="submit-button">
-                <button type="submit">Submit</button>
+        </div>
+
+        <!--Game Start and Rules Area-->
+
+        <div class="instructions">
+
+            <div class="start-game">
+                <button class="start" onclick="startTimedGame()">Start Game</button>
+            </div>
+            <div class="rules-open">
+                <button class="rules-button" onclick="openRules()">How to Play</button>
+
             </div>
 
-        </form>      
-    </div>
+            <!-- Div to contain rules pop up-->
 
-    <!--Div to contain scores pop up at game end-->
+            <div class="rules" id="rules">
+                <div class="rules-title">
+                    <div>
+                        <h2>How to Play</h2>
+                    </div>
+                    <button id="close-rules" class="close-btn" onclick="closeRules()">&times;</button>
+                </div>
+                <div class="rules-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                    necessitatibus illo. Aperiam reprehenderit at nihil eligendi sit quas beatae veritatis.</div>
+            </div>
 
-    <div class="final-score" id="final-score">
+            <!-- Div to contain feedback pop up - Star rating adapted from Coding Nepal Tutorial-->
 
-        <h2>CONGRATULATIONS</h2>
-        <button id="close-score" class="close-btn" onclick="closeScore()">&times;</button>
+            <div class="feedback" id="feedback">
 
-        <p>You have scored</p>
+                <div class="feedback-title">
+                    <div>
+                        <h2>Rate our Game</h2>
+                    </div>
+                    <button id="close-feedback" class="close-btn" onclick="closeFeedback()">&times;</button>
+                </div>
 
-        <div id="fscore">0</div>
+                <div class="star-container">
+                    <div class="star-rating">
+                        <input type="radio" name="rate" id="rate-5">
+                        <label for="rate-5" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-4">
+                        <label for="rate-4" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-3">
+                        <label for="rate-3" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-2">
+                        <label for="rate-2" class="fas fa-star"></label>
+                        <input type="radio" name="rate" id="rate-1">
+                        <label for="rate-1" class="fas fa-star"></label>
+                        <form action="https://formdump.codeinstitute.net/" method="POST">
+                            <header></header>
 
-        <p>Would you like to play again?</p>
+                            <div class="textarea">
+                                <textarea name="comment" id="comment" cols="30"
+                                    placeholder="Please enter any comments you have here..."></textarea>
+                            </div>
 
-        <button>Play again</button>
+                            <div class="submit-button">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
 
-        <button onclick="openFeedback()">Rate our Game</button>
+                    </div>
+                </div>
+            </div>
 
-    </div>
+            <!--Div to contain scores pop up at game end-->
+
+            <div class="final-score" id="final-score">
+
+                <h2>CONGRATULATIONS</h2>
+                <button id="close-score" class="close-btn" onclick="closeScore()">&times;</button>
+
+                <p>You have scored</p>
+
+                <div id="fscore">0</div>
+
+                <p>Would you like to play again?</p>
+
+                <button>Play again</button>
+
+                <button onclick="openFeedback()">Rate our Game</button>
+
+            </div>
 
     </main>
 
@@ -141,9 +149,10 @@
         <!--Social Media Links Go Here-->
     </footer>
     <audio id="whack-sound" src="assets/sounds/whack.wav"></audio>
-    
+
     <script src="https://kit.fontawesome.com/bc577d1dcb.js" crossorigin="anonymous"></script>
 
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
