@@ -163,18 +163,19 @@ function closeScore() {
 // Function to toggle site audio
 
 function muteAudio() {
-    let sounds = document.getElementsByTagName('audio');
+    let sounds = document.getElementById("whack-sound");
     let soundGraphic = document.getElementById('vol-icon')
 
-    if (sounds.muted === true) {
-        sounds.muted = false;
-        soundGraphic.classList.remove('fa-volume-mute');
-        soundGraphic.classList.add('fa-volume-up');
-    } else {
-        (sounds.muted === false); {
+    if (sounds.muted === false) {
         sounds.muted = true;
         soundGraphic.classList.remove('fa-volume-up');
         soundGraphic.classList.add('fa-volume-mute');
+    } else {
+        (sounds.muted === true); {
+        sounds.muted = false;
+        soundGraphic.classList.remove('fa-volume-mute');
+        soundGraphic.classList.add('fa-volume-up');
         };
     };
 }
+
