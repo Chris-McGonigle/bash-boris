@@ -54,6 +54,7 @@ function whack() {
 // Function to start timed game
 
 function startTimedGame() {
+    clearTimeout(countDownTimer);
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
     rulesWindow.style.display = "none";

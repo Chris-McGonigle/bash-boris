@@ -9,10 +9,12 @@
 }
 
 body {
+    height: 100%;
     font-family: Raleway, sans-serif;
   }
 
   html {
+    height: 100%;
     background-color: #6A889C;
   }
 
@@ -488,13 +490,29 @@ form .submit-button button:hover {
         display: block;
         position: fixed;
         width: 100%;
-        height: 100%;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+        height: 100vh;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
         background-color: #40525e;
         z-index: 9999;
         overflow: visible;
+    }
+
+    .rotation-div h1 {
+        text-align: center;
+        color: #ed4d29;
+        padding: 20px;
+    }
+
+    .rotation-div img {
+        transform: scale(0.1);
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
