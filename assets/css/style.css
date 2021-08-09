@@ -60,6 +60,7 @@ body {
     background-image: url(../images/10-downing-street-bg-fleg-cartoom.png);
     background-size: cover;
     cursor: url(../images/cursor-protocol.cur), url(../images/cursor-protocol.png), crosshair;
+    touch-action: manipulation;
 }
 
 /* Style Score Counter and Timer */
