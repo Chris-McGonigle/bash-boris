@@ -19,7 +19,7 @@
         <div class="game-title">
             <h1>Bash Boris</h1>
         </div>
-        <div class="mute-button"><button id="mute-btn"><i class="fas fa-volume-mute"></i></button></div>
+        <div class="mute-button"><button onclick="muteAudio()" id="mute-btn"><i id="vol-icon" class="fas fa-volume-mute"></i></button></div>
     </header>
 
     <main>
@@ -157,7 +157,7 @@
     <footer>
         <!--Social Media Links Go Here-->
     </footer>
-    <audio id="whack-sound" src="assets/sounds/whack.wav"></audio>
+    <audio id="whack-sound" class="sounds" src="assets/sounds/whack.wav"></audio>
 
     <script src="https://kit.fontawesome.com/bc577d1dcb.js" crossorigin="anonymous"></script>
 

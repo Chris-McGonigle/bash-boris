@@ -158,3 +158,22 @@ function closeScore() {
     feedbackWindow.style.display = "none";
     rulesWindow.style.display = "none";
 }
+
+// Function to toggle site audio
+
+function muteAudio() {
+    let sounds = document.getElementsByTagName("audio");
+    let soundGraphic = document.getElementById("vol-icon")
+
+    if (sounds.muted == true) {
+        sounds.muted = false;
+        soundGraphic.classList.remove('fa-volume-mute');
+        soundGraphic.classList.add('fa-volume-up');
+    } else {
+        (sounds.muted = false); {
+        sounds.muted = false;
+        soundGraphic.classList.remove('fa-volume-up');
+        soundGraphic.classList.add('fa-volume-mute');
+        };
+    };
+}
