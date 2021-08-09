@@ -87,8 +87,8 @@ function gameMode() {
 // Function to start timed game - easy
 
 function startEasyTimedGame() {
-    gameModeWindow.style.display = "none"
     clearTimeout(countDownTimer);
+    gameModeWindow.style.display = "none";
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
     rulesWindow.style.display = "none";
@@ -102,10 +102,10 @@ function startEasyTimedGame() {
     setTimeout(() => timeUp = true, 30000);
     }
 
-    // Function to start timed game - normal
+// Function to start timed game - normal
 
 function startNormalTimedGame() {
-    gameModeWindow.style.display = "none"
+    gameModeWindow.style.display = "none";
     clearTimeout(countDownTimer);
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
@@ -120,10 +120,10 @@ function startNormalTimedGame() {
     setTimeout(() => timeUp = true, 30000);
     }
 
-    // Function to start timed game - hard
+// Function to start timed game - hard
 
 function startHardTimedGame() {
-    gameModeWindow.style.display = "none"
+    gameModeWindow.style.display = "none";
     clearTimeout(countDownTimer);
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
