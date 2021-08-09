@@ -162,8 +162,8 @@ function closeScore() {
 // Function to toggle site audio
 
 function muteAudio() {
-    let sounds = document.getElementsByTagName("audio");
-    let soundGraphic = document.getElementById("vol-icon")
+    let sounds = document.getElementsByTagName('audio');
+    let soundGraphic = document.getElementById('vol-icon')
 
     if (sounds.muted === true) {
         sounds.muted = false;
