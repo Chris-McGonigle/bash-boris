@@ -484,7 +484,7 @@ form .submit-button button:hover {
 }
 
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 567px) {
 
     .rotation-div {
         display: block;
@@ -511,8 +511,45 @@ form .submit-button button:hover {
         text-align: center;
         margin: 0;
         position: absolute;
-        top: 50%;
+        top: 75%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+}
+
+/* Media query for devices 568px wide and over */
+
+@media screen and (min-width: 568px) and (max-width:813px) {
+    
+    .game-title {
+        font-size: 0.5em;
+    }
+
+    .mute-button button {
+        top: 10px;
+        font-size: 0.75em;
+    }
+
+    .hit,
+    .no-hit {
+        transform: scale(0.5);
+    }
+    
+    .time {
+        transform: scale(0.5);
+        left: 450px;
+        top: 0;
+        width: 150px;
+    }
+
+    .hole-area {
+        width: 600px;
+        height: 200px;
+        margin: 100px auto 0 auto;
+    }
+
+    .mole-hole:after {
+        transform: scale(1);
+        left: 5%;
     }
 }
