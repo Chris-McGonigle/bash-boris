@@ -18,6 +18,13 @@ body {
     background-color: #6A889C;
   }
 
+  footer {
+      display: flex;
+      margin-top: auto;
+      position: fixed;
+      bottom: 0;
+  }
+
 /* Style game title */
 
 .game-title {
@@ -475,6 +482,37 @@ form .submit-button button {
 form .submit-button button:hover {
     color:#ed4d29;
     background-color: #40525e;
+}
+
+/* Style social media links */
+
+#social {
+    bottom: 0;
+    position: fixed;
+    right: 442px;
+    width: 300px;
+}
+
+#social-links {
+    text-align: center;
+    padding: 0;
+}
+
+#social-links li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+#social-links a {
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+}
+
+#social-links li:hover {
+    color: #ed4d29;
 }
 
 /* Media query to display div asking players to rotate phone horizontally to play */
