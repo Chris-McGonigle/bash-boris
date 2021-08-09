@@ -56,6 +56,41 @@ body {
     background-color: #40525e;
 }
 
+/* Style Game Type Select Div */
+
+.game-modes {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+    background-color: #6A889C;
+    text-align: center;
+    color: #20292f;
+}
+
+.game-modes button {
+    border: 1px solid #ed4d29;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color:#ed4d29;
+    color: #40525e;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.game-modes button:hover {
+    color:#ed4d29;
+    background-color: #40525e;
+}
+
 /* Style main game board and background */
 
 .game-board {
