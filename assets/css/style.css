@@ -475,4 +475,26 @@ form .submit-button button:hover {
     background-color: #40525e;
 }
 
+/* Media query to display div asking players to rotate phone horizontally to play */
 
+.rotation-div {
+    display: none;
+}
+
+
+@media screen and (max-width: 568px) {
+
+    .rotation-div {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #40525e;
+        z-index: 9999;
+        overflow: visible;
+    }
+}
