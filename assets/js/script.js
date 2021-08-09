@@ -29,15 +29,41 @@ function selectHole(holes) {
     return hole;
 }
 
-// Function to animate mole up and hide after random period of time until game over timer
+// Function to animate mole up and hide after random period of time until game over timer - EASY LEVEL
 
-function borisUp() {
+function borisUpEasy() {
+    let time = Math.random() * 3000 + 1000;
+    let chosenHole = selectHole(holes);
+    chosenHole.classList.add('peek');
+    setTimeout(function(){
+        chosenHole.classList.remove('peek');
+        if (!timeUp) borisUpEasy();
+        else openScore();
+    }, time);        
+}
+
+// Function to animate mole up and hide after random period of time until game over timer - NORMAL LEVEL
+
+function borisUpNormal() {
     let time = Math.random() * 1500 + 500;
     let chosenHole = selectHole(holes);
     chosenHole.classList.add('peek');
     setTimeout(function(){
         chosenHole.classList.remove('peek');
-        if (!timeUp) borisUp();
+        if (!timeUp) borisUpNormal();
+        else openScore();
+    }, time);        
+}
+
+// Function to animate mole up and hide after random period of time until game over timer - HARD LEVEL
+
+function borisUpHard() {
+    let time = Math.random() * 750 + 250;
+    let chosenHole = selectHole(holes);
+    chosenHole.classList.add('peek');
+    setTimeout(function(){
+        chosenHole.classList.remove('peek');
+        if (!timeUp) borisUpHard();
         else openScore();
     }, time);        
 }
