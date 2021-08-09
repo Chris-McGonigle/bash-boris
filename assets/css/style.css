@@ -60,7 +60,7 @@ body {
 
 .game-modes {
     position: absolute;
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 400px;
     height: 200px;
@@ -71,6 +71,7 @@ body {
     background-color: #6A889C;
     text-align: center;
     color: #20292f;
+    border-radius: 10px;
 }
 
 .game-modes button {

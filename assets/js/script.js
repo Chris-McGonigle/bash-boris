@@ -5,6 +5,7 @@ const numberHits = document.querySelector('.score');
 const numberMiss = document.querySelector('.miss');
 const borisMole = document.querySelectorAll('.boris');
 const gameBoard = document.querySelector('.hole-area');
+const gameModeWindow = document.querySelector('.game-modes');
 
 const timer = document.getElementById("time-left");
 
@@ -75,6 +76,12 @@ gameBoard.addEventListener('click', whack);
 function whack() {
     let hitSound = document.getElementById("whack-sound");
     hitSound.play();
+}
+
+// Function to open game mode window
+
+function gameMode() {
+    gameModeWindow.style.display = "flex"
 }
 
 // Function to start timed game - easy
