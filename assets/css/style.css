@@ -25,6 +25,17 @@ body {
     color: #ed4d29;
 }
 
+/* Style mute button */
+
+.mute-button button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2.5em;
+    color: #ed4d29;
+    padding: 0 5px 0 5px;
+}
+
 /* Style main game board and background */
 
 .game-board {
