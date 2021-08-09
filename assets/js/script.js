@@ -58,7 +58,7 @@ function borisUpNormal() {
 // Function to animate mole up and hide after random period of time until game over timer - HARD LEVEL
 
 function borisUpHard() {
-    let time = Math.random() * 750 + 250;
+    let time = Math.random() * 500 + 100;
     let chosenHole = selectHole(holes);
     chosenHole.classList.add('peek');
     setTimeout(function(){
@@ -77,7 +77,7 @@ function whack() {
     hitSound.play();
 }
 
-// Function to start timed game
+// Function to start timed game - easy
 
 function startTimedGame() {
     clearTimeout(countDownTimer);
