@@ -86,7 +86,8 @@ function gameMode() {
 
 // Function to start timed game - easy
 
-function startTimedGame() {
+function startEasyTimedGame() {
+    gameModeWindow.style.display = "none"
     clearTimeout(countDownTimer);
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
@@ -96,7 +97,43 @@ function startTimedGame() {
     count = 0;
     numberMiss.textContent = 0;
     timer.textContent = 30;
-    borisUp();
+    borisUpEasy();
+    setInterval(countDownTimer,1000);
+    setTimeout(() => timeUp = true, 30000);
+    }
+
+    // Function to start timed game - normal
+
+function startNormalTimedGame() {
+    gameModeWindow.style.display = "none"
+    clearTimeout(countDownTimer);
+    scoreWindow.style.display = "none";
+    feedbackWindow.style.display = "none";
+    rulesWindow.style.display = "none";
+    numberHits.textContent = 0;
+    score = 0;
+    count = 0;
+    numberMiss.textContent = 0;
+    timer.textContent = 30;
+    borisUpNormal();
+    setInterval(countDownTimer,1000);
+    setTimeout(() => timeUp = true, 30000);
+    }
+
+    // Function to start timed game - hard
+
+function startHardTimedGame() {
+    gameModeWindow.style.display = "none"
+    clearTimeout(countDownTimer);
+    scoreWindow.style.display = "none";
+    feedbackWindow.style.display = "none";
+    rulesWindow.style.display = "none";
+    numberHits.textContent = 0;
+    score = 0;
+    count = 0;
+    numberMiss.textContent = 0;
+    timer.textContent = 30;
+    borisUpHard();
     setInterval(countDownTimer,1000);
     setTimeout(() => timeUp = true, 30000);
     }
