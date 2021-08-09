@@ -214,7 +214,7 @@ button {
 .final-score h2 {
     color: #20292f;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .final-score p {
@@ -246,6 +246,7 @@ button {
     font-size: 100px;
     font-weight: 900;
     color: #ed4d29;
+    text-align: center;
 }
 
 /* Styling Rules and Feedback Pop Up - Hidden by default */
@@ -264,7 +265,7 @@ button {
     border-radius: 10px;
     background-color: rgba(106, 136, 156, 0.9);
     width: auto;
-    height: 400px;
+    height: 425px;
     z-index: 100;
 }
 
