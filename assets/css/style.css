@@ -537,7 +537,6 @@ form .submit-button button:hover {
     
     .time {
         transform: scale(0.5);
-        left: 450px;
         top: 0;
         width: 150px;
     }
@@ -551,5 +550,20 @@ form .submit-button button:hover {
     .mole-hole:after {
         transform: scale(1);
         left: 5%;
+        bottom: 0;
+    }
+
+    .instructions {
+        bottom: -32px;
+    }
+
+    .boris {
+        background-size: 45%;
+    }
+
+    .final-score,
+    .feedback {
+        transform: scale(0.7);
+        left: 0;
     }
 }
