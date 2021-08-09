@@ -59,6 +59,7 @@ function startTimedGame() {
     rulesWindow.style.display = "none";
     numberHits.textContent = 0;
     score = 0;
+    count = 0;
     numberMiss.textContent = 0;
     timer.textContent = 30;
     borisUp();
