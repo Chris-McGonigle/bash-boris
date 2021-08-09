@@ -32,8 +32,19 @@ body {
     top: 20px;
     right: 20px;
     font-size: 2.5em;
-    color: #ed4d29;
+    color: #40525e;
     padding: 0 5px 0 5px;
+    border: 1px solid #ed4d29;
+    border-radius: 5px;
+    outline: none;
+    background-color:#ed4d29;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mute-button button:hover {
+    color:#ed4d29;
+    background-color: #40525e;
 }
 
 /* Style main game board and background */
