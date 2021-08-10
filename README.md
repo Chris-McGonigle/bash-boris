@@ -165,20 +165,32 @@ All technical testing carried out during the lifetime of this project can be fou
     * Result: TEST PART PASSED
         * All possible accessibility measures have been taken, including the use of labels and alt text where required. Due to the bature of the game, it would be difficult to program this for those people with visual impairment. one possibility would be for a voice to say the name of the chosen hole as it was selected, and the user could then use the keyboard to select the required hole. This is a feature that may be implemented in future.
 
-### User Stories and Goals
+### User Stories Testing
 
 * As a user, I want to easily ascertain the purpose of the website.
     * Result: TEST PASSED
-        * From the game title to the game board, the purpoe of the game is obvious from the start, and a rules pop up is made clearly available for further explanation if required.
+        * From the game title to the game board, the purpose of the game is obvious from the start, and a rules pop up is made clearly available for further explanation if required.
 * As user, I want to be able to view the website on any of my devices without any loss of functionality.
+    * Result: TEST PART PASSED
+        * The game was tested across various screen sizes, with difficulty only coming on the iPhone 5 screen. Due to the legacy nature of this handset this was deemed to be an acceptable risk by the developer at this time.
 * As a user, I want to be able to easily understand the game instructions.
+    * Result: TEST PASSED
+        * A game instructions pop up is provided to the user and contains very simple instructions.
 * As a user, I want to be able to see my score easily.
+    * Result: TEST PASSED
+        * A large score counter is displayed at all times in the top left of the screen.
 * As a user, I want to be able to keep track of my time remaining easily.
+    * Result: TEST PASSED
+        * A large timer is displayed at all time in the top right of the screen.
 * As a user, I want to be able to play different game modes.
+    * Result: TEST PASSED
+        * Users have the option of 'Easy', 'Normal' and 'Hard' game modes. The speed of the mole increases as the level difficulty selected increases.
 * As a user, I want to be able to record my scores.
+    * Result: TEST FAILED
+        * As yet a facility to record high scores has not been introduced. This will be a feature in future deployments.
 * As a user, I want to be able to toggle the volume on and off.
-
-### Manual Testing
+    * Result: TEST PASSED
+        * Users have a toggle volume button in the top right of the screen at all times.
 
 ## Deployment
 
