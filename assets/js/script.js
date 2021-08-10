@@ -5,7 +5,7 @@ const numberHits = document.querySelector('.score');
 const numberMiss = document.querySelector('.miss');
 const borisMole = document.querySelectorAll('.boris');
 const gameBoard = document.querySelector('.hole-area');
-const gameModeWindow = document.querySelector('.game-modes');
+const gameModeWindow = document.getElementById("game-modes");
 
 const timer = document.getElementById("time-left");
 
@@ -87,7 +87,6 @@ function gameMode() {
 // Function to start timed game - easy
 
 function startEasyTimedGame() {
-    clearTimeout(countDownTimer);
     gameModeWindow.style.display = "none";
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
@@ -106,7 +105,6 @@ function startEasyTimedGame() {
 
 function startNormalTimedGame() {
     gameModeWindow.style.display = "none";
-    clearTimeout(countDownTimer);
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
     rulesWindow.style.display = "none";
@@ -124,7 +122,6 @@ function startNormalTimedGame() {
 
 function startHardTimedGame() {
     gameModeWindow.style.display = "none";
-    clearTimeout(countDownTimer);
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
     rulesWindow.style.display = "none";

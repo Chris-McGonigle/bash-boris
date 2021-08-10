@@ -58,7 +58,7 @@ body {
 
 /* Style Game Type Select Div */
 
-.game-modes {
+#game-modes {
     position: absolute;
     display: none;
     flex-direction: column;
@@ -74,7 +74,7 @@ body {
     border-radius: 10px;
 }
 
-.game-modes button {
+#game-modes button {
     border: 1px solid #ed4d29;
     border-radius: 5px;
     margin: 10px;
@@ -87,7 +87,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.game-modes button:hover {
+#game-modes button:hover {
     color:#ed4d29;
     background-color: #40525e;
 }
