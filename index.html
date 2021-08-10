@@ -20,7 +20,7 @@
 
     <header>
         <div class="game-title">
-            <h1>BASH BORIS</h1>
+            <img src="assets/images/bash-boris-title.png" alt="Bash Boris Title">
         </div>
         <div class="mute-button"><button aria-label="Mute Button" onclick="muteAudio()" id="mute-btn"><i id="vol-icon" class="fas fa-volume-mute"></i></button></div>
     </header>
@@ -65,7 +65,6 @@
         <!--Div to contain game mode options-->
 
         <div id="game-modes">
-            <h2>Select your difficulty level...</h2>
             <button aria-label="Start Easy Game Button"onclick="startEasyTimedGame()" class="easy">EASY</button>
             <button aria-label="Start Normal Game Button"onclick="startNormalTimedGame()" class="normal">NORMAL</button>
             <button aria-label="Start Hard Game Button"onclick="startHardTimedGame()" class="hard">HARD</button>
@@ -157,7 +156,7 @@
 
                 <p>Would you like to play again?</p>
 
-                <button aria-label="Play again Button" class="fscorebtn" onclick="startTimedGame()">Play again</button>
+                <button aria-label="Play again Button" class="fscorebtn" onclick="gameMode()">Play again</button>
 
                 <button aria-label="Open Feedback Button" class="fscorebtn" onclick="openFeedback()">Rate our Game</button>
 
