@@ -63,6 +63,7 @@ body {
     position: absolute;
     display: none;
     flex-direction: column;
+    justify-content: center;
     width: 400px;
     height: 200px;
     top: 50%;
