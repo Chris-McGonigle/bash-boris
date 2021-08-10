@@ -59,3 +59,11 @@ Retested: NOT APPLICABLE
 The CSS was then rechecked and the error had been fixed.
 
 ![CSS Retest Results](./testing-images/boris-css-retest.png) "CSS retest results"
+
+* Lighthouse testing
+
+The website was tested using Googles Lighthouse tool to examine performance and accessibility. The results were as follows: 
+
+![Lighthouse Testing Results](./testing-images/lighthouse-testing.png) "Lighthouse testing results"
+
+As shown, these results were found to be satisfactory across the board. Whilst the performance rating is lower than the rest at 86, it is still of a high enough value to satisfy the requirements for this game.
