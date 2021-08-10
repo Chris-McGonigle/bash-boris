@@ -97,7 +97,7 @@ function whack() {
 // Function to open game mode window
 
 function gameMode() {
-    gameModeWindow.style.display = "flex"
+    gameModeWindow.style.display = "flex";
 }
 
 // Function to close all pop up windows on game start
@@ -180,7 +180,7 @@ let totalClicks = document.getElementById("hole-area"),
 totalClicks.onclick = function(){
     count ++;
     numberMiss.textContent = count - score;
-}
+};
 
 // Functions to open and close rules pop up
 
@@ -223,7 +223,7 @@ var rating = document.querySelector("star-rating");
 fbtn.onclick = () => {
     rating.style.display = "none";
     submitted.style.display = "block";
-}
+};
 
 // Functions to open and close scores pop up
 
@@ -247,7 +247,7 @@ function closeScore() {
 
 function muteAudio() {
     let sounds = document.getElementById("whack-sound");
-    let soundGraphic = document.getElementById('vol-icon')
+    let soundGraphic = document.getElementById('vol-icon');
 
     if (sounds.muted === false) {
         sounds.muted = true;
@@ -258,7 +258,7 @@ function muteAudio() {
         sounds.muted = false;
         soundGraphic.classList.remove('fa-volume-mute');
         soundGraphic.classList.add('fa-volume-up');
-        };
-    };
+        }
+    }
 }
 

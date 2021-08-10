@@ -117,8 +117,9 @@ body {
 
 .score,
 .time,
-.miss {
-    color: #40525e;
+.miss,
+.hit {
+    color: #fff;
     background-color: rgba(106, 136, 156, 1);
     border-radius: 20px;
     font-size: 5em;
@@ -153,28 +154,29 @@ body {
     position: absolute;
     top: 20px;
     left: 5px;
-    color: #ed4d29;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(106, 136, 156, 1);
 }
 
-.hit h3 {
+.hit p {
     position: absolute;
     left: 25px;
     font-weight: 900;
-    -webkit-text-stroke: 1px black;
 }
 .no-hit {
     position: absolute;
     top: 80px;
     left: 5px;
-    color: #ed4d29;
+    color: #fff;
+    background-color: rgba(106, 136, 156, 1);
 }
 
-.no-hit h3 {
+.no-hit p {
     position: absolute;
     left: 25px;
     top: 55px;
     font-weight: 900;
-    -webkit-text-stroke: 1px black;
 }
 
 /* Style Start and Rules Buttons */
