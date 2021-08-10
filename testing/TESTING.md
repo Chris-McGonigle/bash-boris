@@ -29,3 +29,7 @@ Retested: ERROR PASSED.
 3. Unclosed Div element in instruction section. this was found and a closing tag added to line 163.
 
 Retested: ERROR PASSED.
+
+The HTML was then rechecked in its entirety. All errors were found ot be fixed and no new issues had arisen.
+
+![HTML retesting results](./testing-images/boris-html-retest.png) "HTML retest results"
