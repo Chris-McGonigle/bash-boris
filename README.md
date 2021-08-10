@@ -67,11 +67,19 @@ Finally, it was chosen to force the user to play the game horizontally. It was i
 
 ## Features
 
-### Initial Deployment features
 
-### Second Deployment features
+
+
 
 ### Future Features
+
+1. It would be advantageous to provide a high score capture mechanism. At the time of creation, a local storage method could have been used, but this would only store scores on an indiviual device, and would not function like a 'normal' high scores database would, taking in scores from various different users.
+
+2. I would like to animate the cursor in future deployments so that on each mouse click, the paper would move simulating a strike, much liek swatting a fly. Early attempts to include this proved unsuccessful but it is definietly a feature that should be added in future.
+
+3. I would consider adding an 'infintity' play mode in addition to the three game modes already provided. This mode would run continuously, wit the game picking up speed after a perdetemined amount of time, perhaps every 30 seconds. The game would then end when the user missed a selected number of mole pop ups.
+
+4. I would like to add a number of different images for the mole character, depending on whether or not the mole had been struck or not. Samples of what these images might look like are provided in the images folder but have not been used. this would add another level of complexity and prifessionalism to the game.
 
 ## Technologies Used
 
