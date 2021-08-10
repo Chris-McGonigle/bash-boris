@@ -105,3 +105,28 @@ The steps to deploy are as follows:
 The live link can be found here - (https://chris-mcgonigle.github.io/bash-boris/)
 
 ## Credits
+
+1. I viewed numerous Whack A Mole tutorials on Youtube, but specifically tutorials by [Ania Kubow](https://youtu.be/rJU3tHLgb_c), [Wes Bos](https://youtu.be/toNFfAaWghU), [Franks Laboratory](https://youtu.be/RTb8icFiSfk) and [The Matrix](https://youtu.be/Fgqvx9APc_Y) proved to be the most useful in producing the game.
+
+2. The countdown timer was adpated from youtube tutorials by [Ania Kubow](https://youtu.be/vSV_Ml2_A88), [Wes Bos](https://youtu.be/LAaf7-WuJJQ), [WEB CIFAR](https://youtu.be/_a4XCarxwr8) and [Florin Pop](https://youtu.be/x7WJEmxNlEs).
+
+3. The feedback form was adpated from a Youtube tutorial by [Coding Nepal](https://youtu.be/rw3eZ6XodN8).
+
+4. Tutorials from [Codginflag](https://youtu.be/iE_6pQ3RlZU) and [Web Dev Simplified](https://youtu.be/MBaw_6cPmAw) were used to help design the various pop up windows used throughout the site.
+
+5. W3Schools Tutorials were used to help in the coding of the [audio mute button](https://www.w3schools.com/jsref/prop_audio_muted.asp), [how to create a star rating](https://www.w3schools.com/howto/howto_css_star_rating.asp), [cursor properties](https://www.w3schools.com/CSSref/pr_class_cursor.asp), [coundown timers](https://www.w3schools.com/howto/howto_js_countdown.asp) and [creating pop ups](https://www.w3schools.com/howto/howto_js_popup.asp).
+
+6. The favicon for the site was created using [favicon.cc](https://www.favicon.cc/).
+
+7. Images for the site were sourced using Google Image search, and were then cartoonized by the developer using [Befunky](https://www.befunky.com/). Details ofo the source images used can be found in the table below.
+
+| Image Title | Source |
+| --- | --- |
+| 10-downing-street-bg | GOV.uk |
+| boris-hit | Arab News.com |
+| boris-miss | MurdockLondon.com |
+| boris-popup | iconspng.com |
+| cursor-protocol | Developer |
+| rotate-screen | The Noun Project |
+
+8. The audio for the whack sound effect was sourced from [Freesound.org](https://freesound.org/people/Natty23/sounds/) 
