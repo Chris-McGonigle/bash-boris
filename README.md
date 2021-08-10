@@ -44,11 +44,11 @@ Again instead of using standard holes, as the main game area was to be a street,
 
 The colours used reflect the colours used in the background, namely blues, reds and whites. This was specifcially chosen to mirror the colours of the UK national flag, again to keep the theme consistent throughout. Fredoka and Raleway were intially chosen as site fonts, with Raleway being the predominant font used. These fonts are modern, legible and make it easy for the user to understand any text areas in the site. 
 
-For the moles, again on theme, a picture of the Prime ministers head was used. To ensure the game remained fun and light hearted, and so as to not be accused of bullying or bad taste, the decision was taken to cartoonise all of the image elements. 
+For the moles, again on theme, a picture of the Prime Ministers head was used. To ensure the game remained fun and light hearted, and so as to not be accused of bullying or bad taste, the decision was taken to cartoonise all of the image elements. 
 
 In doing this, it enforces that the game is meant to be fun, humorours and satirical, and is in no way intended to demonise the main character (the PM).
 
-Finally, it was chosen to force the user to play the game horizontally. It was intially intended to be played on either device rotation, but on testing it was found that forcing users to play horizontally would ensure that mobile users can use the same background as desktop users, so again to maintain the theme that the game is trying to portray. 
+Finally, it was chosen to force the user to play the game horizontally. It was initially intended to be played on either device rotation, but on testing it was found that forcing users to play horizontally would ensure that mobile users can use the same background as desktop users, so again to maintain the theme that the game is trying to portray. 
 
 
 ## Wireframes
@@ -67,6 +67,15 @@ Finally, it was chosen to force the user to play the game horizontally. It was i
 
 ## Features
 
+### Initial Deployment Features
+
+Header
+
+* The site header contains the game title and the mute volume button. No navigation menu is required as the site is wholly contained one on HTML page.
+
+
+
+
 
 
 
@@ -75,14 +84,31 @@ Finally, it was chosen to force the user to play the game horizontally. It was i
 
 1. It would be advantageous to provide a high score capture mechanism. At the time of creation, a local storage method could have been used, but this would only store scores on an indiviual device, and would not function like a 'normal' high scores database would, taking in scores from various different users.
 
-2. I would like to animate the cursor in future deployments so that on each mouse click, the paper would move simulating a strike, much liek swatting a fly. Early attempts to include this proved unsuccessful but it is definietly a feature that should be added in future.
+2. I would like to animate the cursor in future deployments so that on each mouse click, the paper would move simulating a strike, much like swatting a fly. Early attempts to include this proved unsuccessful but it is definietly a feature that should be added in future.
 
-3. I would consider adding an 'infintity' play mode in addition to the three game modes already provided. This mode would run continuously, wit the game picking up speed after a perdetemined amount of time, perhaps every 30 seconds. The game would then end when the user missed a selected number of mole pop ups.
+3. I would consider adding an 'infintity' play mode in addition to the three game modes already provided. This mode would run continuously, with the game picking up speed after a predetemined amount of time, perhaps every 30 seconds. The game would then end when the user missed a selected number of mole pop ups.
 
-4. I would like to add a number of different images for the mole character, depending on whether or not the mole had been struck or not. Samples of what these images might look like are provided in the images folder but have not been used. this would add another level of complexity and prifessionalism to the game.
+4. I would like to add a number of different images for the mole character, depending on whether or not the mole had been struck or not. Samples of what these images might look like are provided in the images folder but have not been used. This would add another level of complexity and professionalism to the game.
 
 ## Technologies Used
 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) was used for the site markup
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) was used to style the HTML content
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript) was used for the game functions and the manipultation of the game pop ups.
+* [Balsamiq](https://balsamiq.com/) was used to produce the site wireframes
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) was used to resize site images
+* [befunky](https://www.befunky.com/) was used to cartoonize all sites images.
+* [Font Awesome](https://fontawesome.com/) was used for the site icons
+* [Google Fonts](https://fonts.google.com/) provided all of the fonts used on the site
+* [Firefox Developer tool](https://developer.mozilla.org/en-US/docs/Tools) was used to test site responsiveness and to test code
+* [Google Chrome Developer tools](https://developer.chrome.com/docs/devtools/) was used to test site responsiveness and to test code
+* [Safari Developer tools](https://support.apple.com/en-gb/guide/safari/sfri20948/mac) was used to test site responsiveness and to test code
+* [JSFiddle](https://jsfiddle.net/) was used to test code throughout the project
+* [Github](https://github.com/Chris-McGonigle) was used as the repository hosting service
+* [Gitpod](https://www.gitpod.io/) was used as the Code Editor for the site
+* [Favicon.cc](https://www.favicon.cc/) was used to create the site favicon
+* [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) tools were used to validate the HTML and CSS used.
+* [JSHint](https://jshint.com/) was used to validate the javascript used on site. 
 
 
 ## Testing
@@ -118,7 +144,7 @@ The live link can be found here - (https://chris-mcgonigle.github.io/bash-boris/
 
 6. The favicon for the site was created using [favicon.cc](https://www.favicon.cc/).
 
-7. Images for the site were sourced using Google Image search, and were then cartoonized by the developer using [Befunky](https://www.befunky.com/). Details ofo the source images used can be found in the table below.
+7. Images for the site were sourced using Google Image search, and were then cartoonized by the developer using [Befunky](https://www.befunky.com/). Details of the source images used can be found in the table below.
 
 | Image Title | Source |
 | --- | --- |
