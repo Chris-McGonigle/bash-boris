@@ -19,7 +19,7 @@
         <div class="game-title">
             <h1>BASH BORIS</h1>
         </div>
-        <div class="mute-button"><button onclick="muteAudio()" id="mute-btn"><i id="vol-icon" class="fas fa-volume-mute"></i></button></div>
+        <div class="mute-button"><button aria-label="Mute Button" onclick="muteAudio()" id="mute-btn"><i id="vol-icon" class="fas fa-volume-mute"></i></button></div>
     </header>
 
     <main>
@@ -63,9 +63,9 @@
 
         <div id="game-modes">
             <h2>Select your difficulty level...</h2>
-            <button onclick="startEasyTimedGame()" class="easy">EASY</button>
-            <button onclick="startNormalTimedGame()" class="normal">NORMAL</button>
-            <button onclick="startHardTimedGame()" class="hard">HARD</button>
+            <button aria-label="Start Easy Game Button"onclick="startEasyTimedGame()" class="easy">EASY</button>
+            <button aria-label="Start Normal Game Button"onclick="startNormalTimedGame()" class="normal">NORMAL</button>
+            <button aria-label="Start Hard Game Button"onclick="startHardTimedGame()" class="hard">HARD</button>
         </div>
 
         <!--Game Start and Rules Area-->
@@ -73,10 +73,10 @@
         <div class="instructions">
 
             <div class="start-game">
-                <button class="start" onclick="gameMode()">Start Game</button>
+                <button aria-label="Start Game Button" class="start" onclick="gameMode()">Start Game</button>
             </div>
             <div class="rules-open">
-                <button class="rules-button" onclick="openRules()">How to Play</button>
+                <button aria-label="Rules Button" class="rules-button" onclick="openRules()">How to Play</button>
 
             </div>
 
@@ -106,7 +106,7 @@
                     <div>
                         <h2>Rate our Game</h2>
                     </div>
-                    <button id="close-feedback" class="close-btn" onclick="closeFeedback()">&times;</button>
+                    <button aria-label="Close Feedback Button" id="close-feedback" class="close-btn" onclick="closeFeedback()">&times;</button>
                 </div>
 
                 <div class="star-container">
@@ -133,7 +133,7 @@
                             </div>
 
                             <div class="submit-button">
-                                <button type="submit" id="feedback-submit">Submit</button>
+                                <button aria-label="Submit Feedback Button" type="submit" id="feedback-submit">Submit</button>
                             </div>
                         </form>
 
@@ -146,7 +146,7 @@
             <div class="final-score" id="final-score">
 
                 <h2>CONGRATULATIONS</h2>
-                <button id="close-score" class="close-btn" onclick="closeScore()">&times;</button>
+                <button aria-label="Close Score Button" id="close-score" class="close-btn" onclick="closeScore()">&times;</button>
 
                 <p>You have scored</p>
 
@@ -154,9 +154,9 @@
 
                 <p>Would you like to play again?</p>
 
-                <button class="fscorebtn" onclick="startTimedGame()">Play again</button>
+                <button aria-label="Play again Button" class="fscorebtn" onclick="startTimedGame()">Play again</button>
 
-                <button class="fscorebtn" onclick="openFeedback()">Rate our Game</button>
+                <button aria-label="Open Feedback Button" class="fscorebtn" onclick="openFeedback()">Rate our Game</button>
 
             </div>
 
