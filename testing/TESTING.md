@@ -55,3 +55,7 @@ Retested: NOT APPLICABLE
 3. Two warnings were received for an unknown vendor extension, namely -webkit. Again this was a deliberate choice of extension and can be ignored.
 
 Retested: NOT APPLICABLE
+
+The CSS was then rechecked and the error had been fixed.
+
+![CSS Retest Results](./testing-images/boris-css-retest.png) "CSS retest results"
