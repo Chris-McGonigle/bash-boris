@@ -254,11 +254,10 @@ function muteAudio() {
         soundGraphic.classList.remove('fa-volume-up');
         soundGraphic.classList.add('fa-volume-mute');
     } else {
-        (sounds.muted === true); {
         sounds.muted = false;
         soundGraphic.classList.remove('fa-volume-mute');
         soundGraphic.classList.add('fa-volume-up');
         }
     }
-}
+
 
