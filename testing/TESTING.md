@@ -95,3 +95,11 @@ The first placed a covering div over all of the viewport for screens less than 5
 A second media query was added then from 568px wide to 813 px wide to cover most other mobile devices and laptops. Any screen wider than this was deemed to be a desktop screen, and the existing CSS was designed to be truly responsive on these larger screens.
 
 Care had to be taken when designing these media queries to ensure that the mole and mole hole elements remained in line with each other to mainatin the effect of the mole coming out of the hole.
+
+### Element testing
+
+Every element and link on the site that a user could interact with was manually tested to ensure that the item was behaving as expected. Where necessary, fixes were implemented and documented on the test sheet, as well as via a dedicated commit for each issue.
+
+The below screenshot highlights the result of this testing. The testing spreadsheet (in Excel format) is also [available to download](../testing/manual-testing.xlsx)
+
+![Manual link testing results](./testing-images/manual-testing.png) "Manual Link Testing results"
