@@ -84,13 +84,19 @@ function gameMode() {
     gameModeWindow.style.display = "flex"
 }
 
-// Function to start timed game - easy
+// Function to close all pop up windows on game start
 
-function startEasyTimedGame() {
+function closePopUps() {
     gameModeWindow.style.display = "none";
     scoreWindow.style.display = "none";
     feedbackWindow.style.display = "none";
     rulesWindow.style.display = "none";
+}
+
+// Function to start timed game - easy
+
+function startEasyTimedGame() {
+    closePopUps();
     numberHits.textContent = 0;
     score = 0;
     count = 0;
@@ -104,10 +110,7 @@ function startEasyTimedGame() {
 // Function to start timed game - normal
 
 function startNormalTimedGame() {
-    gameModeWindow.style.display = "none";
-    scoreWindow.style.display = "none";
-    feedbackWindow.style.display = "none";
-    rulesWindow.style.display = "none";
+    closePopUps();
     numberHits.textContent = 0;
     score = 0;
     count = 0;
@@ -121,10 +124,7 @@ function startNormalTimedGame() {
 // Function to start timed game - hard
 
 function startHardTimedGame() {
-    gameModeWindow.style.display = "none";
-    scoreWindow.style.display = "none";
-    feedbackWindow.style.display = "none";
-    rulesWindow.style.display = "none";
+    closePopUps();
     numberHits.textContent = 0;
     score = 0;
     count = 0;
