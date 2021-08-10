@@ -9,7 +9,10 @@ const gameModeWindow = document.getElementById("game-modes");
 
 const timer = document.getElementById("time-left");
 
-// Start of game variables - values will change throughout game session
+/**
+ * Start of game variables
+ * Values will change throughout game session
+ */ 
 
 let timeUp = false;
 let timeLimit = 30000;
@@ -30,7 +33,11 @@ function selectHole(holes) {
     return hole;
 }
 
-// Function to animate mole up and hide after random period of time until game over timer - EASY LEVEL
+/**
+ * Function to animate mole up and hide after 
+ * random period of time until game over timer - 
+ * EASY LEVEL
+ */
 
 function borisUpEasy() {
     let time = Math.random() * 3000 + 1000;
@@ -43,7 +50,11 @@ function borisUpEasy() {
     }, time);        
 }
 
-// Function to animate mole up and hide after random period of time until game over timer - NORMAL LEVEL
+/**
+ * Function to animate mole up and hide after 
+ * random period of time until game over timer - 
+ * NORMAL LEVEL
+ */
 
 function borisUpNormal() {
     let time = Math.random() * 1500 + 500;
@@ -56,7 +67,11 @@ function borisUpNormal() {
     }, time);        
 }
 
-// Function to animate mole up and hide after random period of time until game over timer - HARD LEVEL
+/** 
+ * Function to animate mole up and hide after 
+ * random period of time until game over timer
+ * HARD LEVEL
+ */
 
 function borisUpHard() {
     let time = Math.random() * 500 + 100;
