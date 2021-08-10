@@ -46,7 +46,7 @@ The colours used reflect the colours used in the background, namely blues, reds 
 
 For the moles, again on theme, a picture of the Prime Ministers head was used. To ensure the game remained fun and light hearted, and so as to not be accused of bullying or bad taste, the decision was taken to cartoonise all of the image elements. 
 
-In doing this, it enforces that the game is meant to be fun, humorours and satirical, and is in no way intended to demonise the main character (the PM).
+In doing this, it enforces that the game is meant to be fun, humorous and satirical, and is in no way intended to demonise the main character (the PM).
 
 Finally, it was chosen to force the user to play the game horizontally. It was initially intended to be played on either device rotation, but on testing it was found that forcing users to play horizontally would ensure that mobile users can use the same background as desktop users, so again to maintain the theme that the game is trying to portray. 
 
@@ -83,11 +83,11 @@ Counters
 
 Game Board
 
-* The main game board conatins the six possible options for a mole to pop out from. the board also serves as the backdrop for the site pop ups
+* The main game board contains the six possible options for a mole to pop out from. the board also serves as the backdrop for the site pop ups.
 
 Game Buttons
 
-* The game buttons allow the user to either start the game (which opens the difficulty setting pop up first) or the game rules
+* The game buttons allow the user to either start the game (which opens the difficulty setting pop up first) or the game rules.
 
 Rules Pop Up
 
@@ -109,7 +109,7 @@ The footer conatins links to social media channels and the developer copyright m
 
 1. It would be advantageous to provide a high score capture mechanism. At the time of creation, a local storage method could have been used, but this would only store scores on an indiviual device, and would not function like a 'normal' high scores database would, taking in scores from various different users.
 
-2. I would like to animate the cursor in future deployments so that on each mouse click, the paper would move simulating a strike, much like swatting a fly. Early attempts to include this proved unsuccessful but it is definietly a feature that should be added in future.
+2. I would like to animate the cursor in future deployments so that on each mouse click, the paper would move simulating a strike, much like swatting a fly. Early attempts to include this proved unsuccessful but it is definitely a feature that should be added in future.
 
 3. I would consider adding an 'infintity' play mode in addition to the three game modes already provided. This mode would run continuously, with the game picking up speed after a predetemined amount of time, perhaps every 30 seconds. The game would then end when the user missed a selected number of mole pop ups.
 
@@ -140,7 +140,43 @@ The footer conatins links to social media channels and the developer copyright m
 
 ## Testing
 
-### Automated Testing
+All technical testing carried out during the lifetime of this project can be found by following this link to the dedicated [testing documentation](./testing/TESTING.md)
+
+### Site Goals and User Expectation Testing
+
+#### Site Goals testing
+
+1. To provide a fun game to play that requires little instruction.
+    * Result: TEST PASSED
+        * Due to the nature of the game it is based on, it is plain from the site load that this is a whack a mole style game. The instructions given are succinct and easy to understand.    
+2. To provide a game that is responsive across all devices.
+    * Result : TEST PART PASSED
+        * The game works well on all mobile screens with the exception of the iPhone 5, due to the nature of its very small screen in comparison to todays modals. As this is a near obsolete device it was decided to carry on wit the larger devices. It is however best played on a desktop to have maximum enjoyment from the game.
+3. To provide a game that entices the user to return to play again.
+    * Result: TEST PASSED
+        * The sound effects help add an element of fun to the game, along with the overall theme. I would submit that any game that allows users to vent their frustrations about people in power will keep users coming back for more...a destress if you will!!
+4. To provide differing game modes dependant on user preference.
+    * Result: TEST PASSED
+        * An easy, normal and hard level ahve been programmed so a user can select one of their choosing.
+5. To record scores of each game to enable user to return to beat score.
+    * Result: TEST PART PASSED
+        * A score is provided to the user throughout the game, and is again displayed on game end. There is however no way as yet to store these scores so that a user can compare against them on their return. the addition of this would help drive a further element of competition to the game.
+6. To ensure the game is fully accessible to those users that may require assisstive technologies.
+    * Result: TEST PART PASSED
+        * All possible accessibility measures have been taken, including the use of labels and alt text where required. Due to the bature of the game, it would be difficult to program this for those people with visual impairment. one possibility would be for a voice to say the name of the chosen hole as it was selected, and the user could then use the keyboard to select the required hole. This is a feature that may be implemented in future.
+
+### User Stories and Goals
+
+* As a user, I want to easily ascertain the purpose of the website.
+    * Result: TEST PASSED
+        * From the game title to the game board, the purpoe of the game is obvious from the start, and a rules pop up is made clearly available for further explanation if required.
+* As user, I want to be able to view the website on any of my devices without any loss of functionality.
+* As a user, I want to be able to easily understand the game instructions.
+* As a user, I want to be able to see my score easily.
+* As a user, I want to be able to keep track of my time remaining easily.
+* As a user, I want to be able to play different game modes.
+* As a user, I want to be able to record my scores.
+* As a user, I want to be able to toggle the volume on and off.
 
 ### Manual Testing
 
