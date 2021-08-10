@@ -21,6 +21,7 @@ let score = 0;
 let countdown;
 let lastHole;
 
+
 // Function to select a hole at random
 
 function selectHole(holes) {
