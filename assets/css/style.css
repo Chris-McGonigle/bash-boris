@@ -652,3 +652,19 @@ form .submit-button button:hover {
         left: 0;
     }
 }
+
+/* Style custom 404 page */
+
+.fridge-div {
+    display: flex;
+}
+
+.fridge {
+    justify-content: center;
+}
+
+.title-404,
+.p-404 {
+    text-align: center;
+    color: #000;
+} 
