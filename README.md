@@ -73,12 +73,37 @@ Header
 
 * The site header contains the game title and the mute volume button. No navigation menu is required as the site is wholly contained one on HTML page.
 
+Timer
 
+* The game timer keeps track of game time progress
 
+Counters
 
+* The hit and miss counters keep track of score throughout the game
 
+Game Board
 
+* The main game board conatins the six possible options for a mole to pop out from. the board also serves as the backdrop for the site pop ups
 
+Game Buttons
+
+* The game buttons allow the user to either start the game (which opens the difficulty setting pop up first) or the game rules
+
+Rules Pop Up
+
+* The game rules provide some background to the game, and also how to play it. It also enforces the point that the game is optimised for desktop or for horizontal viewing.
+
+Final Score Pop Up
+
+* The final score pop out provides the user with the score they got during the game. It also provides a button option to play again, and also has a button should a user wish to rate the game.
+
+Feedback Pop Up
+
+* The feedback pop up only appears once the user has played a game, so that someone cannot leave a review without first playing at least once. The feedback has an option for a star rating, and some text feedback. As we will not need to contact any user, any personal user details are not requested.
+
+Footer
+
+The footer conatins links to social media channels and the developer copyright message.
 
 ### Future Features
 
@@ -89,6 +114,8 @@ Header
 3. I would consider adding an 'infintity' play mode in addition to the three game modes already provided. This mode would run continuously, with the game picking up speed after a predetemined amount of time, perhaps every 30 seconds. The game would then end when the user missed a selected number of mole pop ups.
 
 4. I would like to add a number of different images for the mole character, depending on whether or not the mole had been struck or not. Samples of what these images might look like are provided in the images folder but have not been used. This would add another level of complexity and professionalism to the game.
+
+5. If publishing on a commercial basis, space has been left either side of the game board. It is envisaged that this space is where advertisements would be placed, in the users view but not distracting from the main game board either.
 
 ## Technologies Used
 
