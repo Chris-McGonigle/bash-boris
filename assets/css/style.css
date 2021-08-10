@@ -179,6 +179,13 @@ body {
     font-weight: 900;
 }
 
+.hit p,
+.no-hit p {
+    background-color: #ed4d29;
+    border-radius: 5px;
+    padding: 2px;
+}
+
 /* Style Start and Rules Buttons */
 
 .instructions {
