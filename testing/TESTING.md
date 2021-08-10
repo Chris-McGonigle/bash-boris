@@ -67,3 +67,8 @@ The website was tested using Googles Lighthouse tool to examine performance and 
 ![Lighthouse Testing Results](./testing-images/lighthouse-testing.png) "Lighthouse testing results"
 
 As shown, these results were found to be satisfactory across the board. Whilst the performance rating is lower than the rest at 86, it is still of a high enough value to satisfy the requirements for this game.
+
+* Javascript testing
+
+Javascript was tested using [JSHint Validation Tool](https://jshint.com/)
+
