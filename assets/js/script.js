@@ -85,7 +85,7 @@ function borisUpHard() {
     }, time);        
 }
 
-// Function to add whack sound everytime a mouse is clicked
+// Function to add whack sound every time a mouse is clicked
 
 gameBoard.addEventListener('click', whack);
 
@@ -175,7 +175,7 @@ function success(e) {
 
 // Function to count misses and increase miss count
 
-let totalClicks = document.getElementById("hole-area"),
+let totalClicks = document.getElementById("hole-area");
     count = 0;
 totalClicks.onclick = function(){
     count ++;
