@@ -72,4 +72,15 @@ It was for this reason that a theme involving the UK Prime Minister and the Nort
 
 ## Deployment
 
+The site was deployed to GitHub pages.
+
+The steps to deploy are as follows:
+
+    In the GitHub repository, navigate to the Settings tab
+    Select the Pages sub-menu
+    From the source section drop-down menu, select the Master Branch, and then hit save
+    Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - (https://chris-mcgonigle.github.io/bash-boris/)
+
 ## Credits
