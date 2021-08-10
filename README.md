@@ -48,7 +48,7 @@ For the moles, again on theme, a picture of the Prime ministers head was used. T
 
 In doing this, it enforces that the game is meant to be fun, humorours and satirical, and is in no way intended to demonise the main character (the PM).
 
-Finally, it was chosen to force the user to play the game horizontally. this was chosen to try and ensure that mobile users can use the same background as desktop users, so again to maintain the theme that the game is trying to portray. 
+Finally, it was chosen to force the user to play the game horizontally. It was intially intended to be played on either device rotation, but on testing it was found that forcing users to play horizontally would ensure that mobile users can use the same background as desktop users, so again to maintain the theme that the game is trying to portray. 
 
 
 ## Wireframes
