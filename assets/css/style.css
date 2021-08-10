@@ -573,10 +573,11 @@ form .submit-button button:hover {
         overflow: visible;
     }
 
-    .rotation-div h1 {
-        text-align: center;
+    .rotation-div p {
+        text-align: start;
         color: #ed4d29;
         padding: 20px;
+        font-size: 2em;
     }
 
     .rotation-div img {
@@ -584,8 +585,8 @@ form .submit-button button:hover {
         text-align: center;
         margin: 0;
         position: absolute;
-        top: 75%;
-        left: 50%;
+        top: 70%;
+        left: 25%;
         transform: translate(-50%, -50%);
     }
 }

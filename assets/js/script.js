@@ -151,7 +151,7 @@ borisMole.forEach(boris => boris.addEventListener('click',success));
 // Function to count hits and increase score
 
 function success(e) {
-    if(!e.isTrusted) return; // someone is cheating!!!
+    if(!e.isTrusted) return; // someone is cheating!!! Listens to ensure an actual mouse click was made
     score++;
     this.parentNode.classList.remove('peek');
     numberHits.textContent = score;
