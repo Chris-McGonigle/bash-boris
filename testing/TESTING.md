@@ -41,3 +41,9 @@ CSS was tested using the [W3C CSS Validation Service - Jigsaw](https://jigsaw.w3
 One error and twenty three warnings were found as detailed in the following screenshot:
 
 ![CSS Testing Results](./testing-images/boris-css-testing.png) "CSS testing results"
+
+#### Error and Warning Fixes
+
+1. The single error was casued by the omission of 'seconds' from a transition attribute on the mole image. This was added to correct.
+
+Retested: ERROR PASSED
