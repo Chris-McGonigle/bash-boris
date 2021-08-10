@@ -47,3 +47,11 @@ One error and twenty three warnings were found as detailed in the following scre
 1. The single error was casued by the omission of 'seconds' from a transition attribute on the mole image. This was added to correct.
 
 Retested: ERROR PASSED
+
+2. Warnings were given for all button elements that the same colour was used for the background color and border colour of the buttons. This was a deliberate design choice to retain some of the original colour on hover over any button element. As such this did not need retested.
+
+Retested: NOT APPLICABLE
+
+3. Two warnings were received for an unknown vendor extension, namely -webkit. Again this was a deliberate choice of extension and can be ignored.
+
+Retested: NOT APPLICABLE
