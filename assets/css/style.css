@@ -689,6 +689,11 @@ form .submit-button button:hover {
     #social-links li {
         font-size: 1em;
     }
+
+    .rules {
+        transform: scale(0.6);
+        left: -150px;
+    }
 }
 
 /* Style custom 404 page */
