@@ -6,7 +6,7 @@ During the construction process, the Dev Tools functionality of Firefox was used
 
 ## Table of Contents
 
- 1. [Validator Testing](#validator-testing)
+ 1. [Validator testing](#validator-testing)
     * [HTML](#html)
     * [CSS](#css)
     * [Lighthouse](#lighthouse-testing)
@@ -17,7 +17,7 @@ During the construction process, the Dev Tools functionality of Firefox was used
 
 ## Testing
 
-### Validator Testing
+### Validator testing
 
 #### HTML
 
@@ -127,9 +127,9 @@ As the site was designed to be optimised on desktop, three media queries were cr
 
 The first placed a covering div over all of the viewport for screens less than 567px wide (width of iPhone5) asking that users rotate their screen horizontally. Ideally in future this would be carried out without the need of a div. 
 
-A second media query was added then from 568px wide to 666px wide to and another from 667px wide to 812px wide (iPhone X) Any screen wider than this was deemed to be a desktop screen, and the existing CSS was designed to be truly responsive on these larger screens.
+A second media query was added then from 568px wide to 666px wide to and another from 667px wide to 812px wide (iPhone X). Any screen wider than this was deemed to be a desktop screen, and the existing CSS was designed to be truly responsive on these larger screens.
 
-Care had to be taken when designing these media queries to ensure that the mole and mole hole elements remained in line with each other to mainatin the effect of the mole coming out of the hole. Although not ideal on smaller screens, the game remains functional, but as stated in the rules and early in this document it is really best enjoyed on a desktop.
+Care had to be taken when designing these media queries to ensure that the mole and mole hole elements remained in line with each other to mainatin the effect of the mole coming out of the hole. Although not ideal on smaller screens, the game remains functional, but as stated in the rules and in the README document it is really best enjoyed on a desktop.
 
 <br>
 
