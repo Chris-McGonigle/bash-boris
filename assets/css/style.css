@@ -565,9 +565,77 @@ form .submit-button button:hover {
     }
 }
 
-/* Media query for devices 568px wide and over */
+/* Media query for devices 568px wide to 666px wide */
 
-@media screen and (min-width: 568px) and (max-width:813px) {
+@media screen and (min-width: 568px) and (max-width:666px) {
+
+
+.game-title img {
+    transform: scale(0.2);
+}
+
+.mute-button button {
+    top: 10px;
+    font-size: 0.75em;
+}
+
+.hit,
+.no-hit {
+    transform: scale(0.5);
+    top: 0;
+}
+.no-hit {
+    left: 80px;
+}
+
+.time {
+    transform: scale(0.5);
+    top: 0;
+    width: 100px;
+    right: -20px;
+}
+
+.hole-area {
+    width: 500px;
+    height: 200px;
+    margin: 50px auto 0 auto;
+}
+
+.mole-hole:after {
+    transform: scale(1);
+    left: 5%;
+    bottom: 0;
+}
+
+.instructions {
+    bottom: 0px;
+    transform: scale(0.6);
+    bottom: -10px;
+}
+
+.boris {
+    background-size: 45%;
+}
+
+.final-score,
+.feedback {
+    transform: scale(0.7);
+    left: -100%;
+}
+
+#social-links li {
+    font-size: 1em;
+}
+
+.rules {
+    left: 0;
+    transform: translate(-60%, -15%);
+}
+}
+
+/* Media query for devices 667px wide to 812px wide (up to iPhone6 size to iPhone X */
+
+@media screen and (min-width: 667px) and (max-width:812px) {
     
     .game-title {
         font-size: 0.5em;
@@ -581,6 +649,9 @@ form .submit-button button:hover {
     .hit,
     .no-hit {
         transform: scale(0.5);
+    }
+    .no-hit {
+        left: 80px;
     }
     
     .time {
@@ -613,6 +684,10 @@ form .submit-button button:hover {
     .feedback {
         transform: scale(0.7);
         left: 0;
+    }
+
+    #social-links li {
+        font-size: 1em;
     }
 }
 
