@@ -73,37 +73,55 @@ Header
 
 * The site header contains the game title and the mute volume button. No navigation menu is required as the site is wholly contained one on HTML page.
 
+![Site Header](./assets/images/README-screenshots/boris-header.png)
+
 Timer
 
 * The game timer keeps track of game time progress
+
+![Timer](./assets/images/README-screenshots/timer.png)
 
 Counters
 
 * The hit and miss counters keep track of score throughout the game
 
+![Counters](./assets/images/README-screenshots/counters.png)
+
 Game Board
 
 * The main game board contains the six possible options for a mole to pop out from. the board also serves as the backdrop for the site pop ups.
+
+![Game board](./assets/images/README-screenshots/game-board.png)
 
 Game Buttons
 
 * The game buttons allow the user to either start the game (which opens the difficulty setting pop up first) or the game rules.
 
+![Buttons](./assets/images/README-screenshots/buttons.png)
+
 Rules Pop Up
 
 * The game rules provide some background to the game, and also how to play it. It also enforces the point that the game is optimised for desktop or for horizontal viewing.
+
+![Rules](./assets/images/README-screenshots/rules.png)
 
 Final Score Pop Up
 
 * The final score pop out provides the user with the score they got during the game. It also provides a button option to play again, and also has a button should a user wish to rate the game.
 
+![Final Score](./assets/images/README-screenshots/score.png)
+
 Feedback Pop Up
 
 * The feedback pop up only appears once the user has played a game, so that someone cannot leave a review without first playing at least once. The feedback has an option for a star rating, and some text feedback. As we will not need to contact any user, any personal user details are not requested.
 
+![Feedback](./assets/images/README-screenshots/feedback.png)
+
 Footer
 
 The footer conatins links to social media channels and the developer copyright message.
+
+![Footer](./assets/images/README-screenshots/footer.png)
 
 ### Future Features
 
