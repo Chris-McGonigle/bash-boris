@@ -112,34 +112,27 @@ body {
 
 /* Style Score Counter and Timer */
 
-.time-score-area {
-    display: flex;
-}
-
-.score,
+.no-hit,
 .time,
-.miss,
 .hit {
     color: #fff;
     background-color: rgba(106, 136, 156, 1);
     border-radius: 20px;
     font-size: 5em;
     font-weight: 900;
-    display: flex;
-    align-items: center;
 }
 
 /* Style individual counter elements */
 
-.score {
+.no-hit {
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 90px;
 }
 
-.miss {
+.hit {
     position: absolute;
-    top: 80px;
+    top: 20px;
     left: 20px;
 }
 
@@ -148,43 +141,12 @@ body {
     top: 20px;
     right: 20px;
 }
-.time p {
-    font-size: 15px;
-}
-.hit {
-    position: absolute;
-    top: 20px;
-    left: 5px;
-    font-size: 15px;
-    color: #fff;
-    background-color: rgba(106, 136, 156, 1);
-}
-
-.hit p {
-    position: absolute;
-    left: 25px;
-    font-weight: 900;
-}
-.no-hit {
-    position: absolute;
-    top: 80px;
-    left: 5px;
-    color: #fff;
-    background-color: rgba(106, 136, 156, 1);
-}
-
-.no-hit p {
-    position: absolute;
-    left: 25px;
-    top: 55px;
-    font-weight: 900;
-}
-
+.time p,
 .hit p,
 .no-hit p {
-    background-color: #ed4d29;
-    border-radius: 5px;
-    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* Style Start and Rules Buttons */
