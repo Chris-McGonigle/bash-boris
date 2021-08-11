@@ -109,15 +109,23 @@ function closePopUps() {
     rulesWindow.style.display = "none";
 }
 
-// Function to start timed game - easy
+// Function to clear all timers and score counters
 
-function startEasyTimedGame() {
-    closePopUps();
+function clearAll() {
+    timeUp = false;
+    timer.textContent = 30;
+    timeLeft = timer.textContent
     numberHits.textContent = 0;
     score = 0;
     count = 0;
     numberMiss.textContent = 0;
-    timer.textContent = 30;
+}
+
+// Function to start timed game - easy
+
+function startEasyTimedGame() {
+    closePopUps();
+    clearAll();
     borisUpEasy();
     setInterval(countDownTimer,1000);
     setTimeout(() => timeUp = true, 30000);
@@ -127,11 +135,7 @@ function startEasyTimedGame() {
 
 function startNormalTimedGame() {
     closePopUps();
-    numberHits.textContent = 0;
-    score = 0;
-    count = 0;
-    numberMiss.textContent = 0;
-    timer.textContent = 30;
+    clearAll();
     borisUpNormal();
     setInterval(countDownTimer,1000);
     setTimeout(() => timeUp = true, 30000);
@@ -141,11 +145,7 @@ function startNormalTimedGame() {
 
 function startHardTimedGame() {
     closePopUps();
-    numberHits.textContent = 0;
-    score = 0;
-    count = 0;
-    numberMiss.textContent = 0;
-    timer.textContent = 30;
+    clearAll();
     borisUpHard();
     setInterval(countDownTimer,1000);
     setTimeout(() => timeUp = true, 30000);
@@ -155,7 +155,7 @@ function startHardTimedGame() {
 
 function countDownTimer() {
     if(timeLeft > 0) {
-        timeLeft--;
+        --timeLeft;
         timer.textContent = timeLeft;
     }
 }
