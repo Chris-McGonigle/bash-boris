@@ -119,9 +119,7 @@ There were also 12 warnings about unused variables. On checking these variables 
 
 ### Responsive testing
 
-The site was tested for responsiveness via two methods. 
-    
-The first used the dev tools facility on Firefox and on Chrome to examine the site on various viewports. These findings were used to decide where the breakpoints for media queries would be. 
+The dev tools facility on Firefox and on Chrome to examine the site on various viewports. These findings were used to decide where the breakpoints for media queries would be. 
 
 As the site was designed to be optimised on desktop, three media queries were created.
 
