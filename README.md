@@ -4,7 +4,7 @@ Bash Boris is a fun satirical browser game based on the popular fairground and a
 
 ![Bash Boris](./assets/images/README-screenshots/device-screenshot.png)
 
-So have a go and try you luck on the [live website](https://chris-mcgonigle.github.io/bash-boris/)
+So have a go and try your luck on the [live website](https://chris-mcgonigle.github.io/bash-boris/)
 
 ## Table of Contents
 
@@ -14,9 +14,9 @@ So have a go and try you luck on the [live website](https://chris-mcgonigle.gith
     * [Site Design Approach](#site-design-approach)
     * [Game Visual Design and Font](#game-visual-design-and-font)
 2.  [Wireframes](#wireframes)
-    * [Mobile](#mobile)
-    * [Tablet](#tablet)
-    * [Desktop](#desktop)
+    * [Mobile](#mobile-version)
+    * [Tablet](#tablet-version)
+    * [Desktop](#desktop-version)
 3. [Features](#features)
     * [Initial Deployment Features](#initial-deployment-features)
     * [Future Features](#future-features)
