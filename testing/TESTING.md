@@ -14,6 +14,7 @@ During the construction process, the Dev Tools functionality of Firefox was used
 2. [Manual testing](#manual-testing)
     * [Responsive testing](#responsive-testing)
     * [Element testing](#element-testing) 
+3. [Known Bugs](#known-bugs)
 
 ## Testing
 
@@ -142,3 +143,17 @@ Every element and link on the site that a user could interact with was manually 
 The below screenshot highlights the result of this testing. The testing spreadsheet (in Excel format) is also [available to download](../testing/manual-testing.xlsx)
 
 ![Manual link testing results](./testing-images/manual-testing.png) "Manual Link Testing results"
+
+### Known Bugs
+
+On final element testing a bug was discovered whereby if you went to play the game again, all counters would reset, but the game would only play for approximatley one second before the end game pop up would appear.
+
+A hard reload of the page would solve this error, but would not be the best user experience.
+
+In an attempt to solve the bug further instructions were added into the code to reset the timeLeft variable and the timer.textcontent variable.
+
+On retest, when a user would go to play a secind game, this time the game will last for the whole 30 seconds time, but the countdown timer display would run at double time.
+
+Although not ideal, at least a user gets to play the game again for the whole 30 seconds, rather that having to har reload the page to get a full game time amount again. 
+
+At this time the bug remains in the game, but now it does not prevent the user from playing again, which is the best option rather than leaving the original bug as was.
