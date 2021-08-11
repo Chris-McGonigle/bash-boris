@@ -540,7 +540,7 @@ form .submit-button button:hover {
 }
 
 #social-links {
-    text-align: center;
+    text-align: left;
     padding: 0;
 }
 
@@ -549,6 +549,7 @@ form .submit-button button:hover {
     list-style-type: none;
     margin: 5px;
     padding: 10px;
+    font-size: 1.5em;
 }
 
 #social-links a {
