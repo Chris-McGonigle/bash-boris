@@ -4,11 +4,22 @@ The following document outlines all testing carried out on the website 'Bash Bor
 
 During the construction process, the Dev Tools functionality of Firefox was used to test CSS code initially, where it was then tweaked to the desired outcome.
 
+## Table of Contents
+
+ 1. [Validator Testing](#validator-testing)
+    * [HTML](#html)
+    * [CSS](#css)
+    * [Lighthouse](#lighthouse-testing)
+    * [Javascript](#javascript-testing)
+2. [Manual testing](#manual-testing)
+    * [Responsive testing](#responsive-testing)
+    * [Element testing](#element-testing) 
+
 ## Testing
 
 ### Validator Testing
 
-* HTML
+#### HTML
 
 HTML was tested using the [W3C Markup Validation Service](https://validator.w3.org/)
 
@@ -16,7 +27,7 @@ Five errors were found as detailed in the following screenshot:
 
 ![HTML testing results](./testing-images/boris-html-testing.png) "HTML testing results"
 
-#### Error fixes
+##### Error fixes
 
 1. Errors 1 - 3 were caused by a missing space between attributes. Added space where required.
 
@@ -34,7 +45,11 @@ The HTML was then rechecked in its entirety. All errors were found to be fixed a
 
 ![HTML retesting results](./testing-images/boris-html-retest.png) "HTML retest results"
 
-* CSS
+<br>
+[Back to top](#table-of-contents)
+<br>
+
+#### CSS
 
 CSS was tested using the [W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
 
@@ -42,7 +57,7 @@ One error and twenty three warnings were found as detailed in the following scre
 
 ![CSS Testing Results](./testing-images/boris-css-testing.png) "CSS testing results"
 
-#### Error and Warning Fixes
+##### Error and Warning Fixes
 
 1. The single error was casued by the omission of 'seconds' from a transition attribute on the mole image. This was added to correct.
 
@@ -60,7 +75,11 @@ The CSS was then rechecked and the error had been fixed.
 
 ![CSS Retest Results](./testing-images/boris-css-retest.png) "CSS retest results"
 
-* Lighthouse testing
+<br>
+[Back to top](#table-of-contents)
+<br>
+
+#### Lighthouse testing
 
 The website was tested using Google's Lighthouse tool to examine performance and accessibility. The results were as follows: 
 
@@ -68,7 +87,11 @@ The website was tested using Google's Lighthouse tool to examine performance and
 
 As shown, these results were found to be satisfactory across the board. Whilst the performance rating is lower than the rest at 86, it is still of a high enough value to satisfy the requirements for this game.
 
-* Javascript testing
+<br>
+[Back to top](#table-of-contents)
+<br>
+
+#### Javascript testing
 
 Javascript was tested using [JSHint Validation Tool](https://jshint.com/)
 
@@ -79,6 +102,10 @@ There were 3 missing semicolons which were subsequently added, and two identifie
 A warning on line 257 expected an assignment or function call and instead saw an expression. This expression was a repeat of the beginning of the if statement. The offending expression was removed and retested and the error was omitted.
 
 There were also 12 warnings about unused variables. On checking these variables are either assigned later in other functions, or are assigned to a button click through HTML. As such these variables are not actually unused and remain as is.
+
+<br>
+[Back to top](#table-of-contents)
+<br>
 
 ## Manual Testing
 
@@ -95,6 +122,10 @@ The first placed a covering div over all of the viewport for screens less than 5
 A second media query was added then from 568px wide to 666px wide to and another from 667px wide to 812px wide (iPhone X) Any screen wider than this was deemed to be a desktop screen, and the existing CSS was designed to be truly responsive on these larger screens.
 
 Care had to be taken when designing these media queries to ensure that the mole and mole hole elements remained in line with each other to mainatin the effect of the mole coming out of the hole. Although not ideal on smaller screens, the game remains functional, but as stated in the rules and early in this document it is really best enjoyed on a desktop.
+
+<br>
+[Back to top](#table-of-contents)
+<br>
 
 ### Element testing
 
