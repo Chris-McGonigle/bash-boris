@@ -683,7 +683,14 @@ form .submit-button button:hover {
     .final-score,
     .feedback {
         transform: scale(0.7);
-        left: 0;
+    }
+
+    .final-score {
+        left: -30px;
+    }
+
+    .feedback {
+        left: -75px;
     }
 
     #social-links li {
