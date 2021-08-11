@@ -114,7 +114,7 @@ function closePopUps() {
 function clearAll() {
     timeUp = false;
     timer.textContent = 30;
-    timeLeft = timer.textContent
+    timeLeft = timer.textContent;
     numberHits.textContent = 0;
     score = 0;
     count = 0;
