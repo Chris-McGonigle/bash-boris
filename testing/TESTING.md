@@ -46,7 +46,9 @@ The HTML was then rechecked in its entirety. All errors were found to be fixed a
 ![HTML retesting results](./testing-images/boris-html-retest.png) "HTML retest results"
 
 <br>
+
 [Back to top](#table-of-contents)
+
 <br>
 
 #### CSS
@@ -76,7 +78,9 @@ The CSS was then rechecked and the error had been fixed.
 ![CSS Retest Results](./testing-images/boris-css-retest.png) "CSS retest results"
 
 <br>
+
 [Back to top](#table-of-contents)
+
 <br>
 
 #### Lighthouse testing
@@ -88,7 +92,9 @@ The website was tested using Google's Lighthouse tool to examine performance and
 As shown, these results were found to be satisfactory across the board. Whilst the performance rating is lower than the rest at 86, it is still of a high enough value to satisfy the requirements for this game.
 
 <br>
+
 [Back to top](#table-of-contents)
+
 <br>
 
 #### Javascript testing
@@ -104,7 +110,9 @@ A warning on line 257 expected an assignment or function call and instead saw an
 There were also 12 warnings about unused variables. On checking these variables are either assigned later in other functions, or are assigned to a button click through HTML. As such these variables are not actually unused and remain as is.
 
 <br>
+
 [Back to top](#table-of-contents)
+
 <br>
 
 ## Manual Testing
@@ -124,7 +132,9 @@ A second media query was added then from 568px wide to 666px wide to and another
 Care had to be taken when designing these media queries to ensure that the mole and mole hole elements remained in line with each other to mainatin the effect of the mole coming out of the hole. Although not ideal on smaller screens, the game remains functional, but as stated in the rules and early in this document it is really best enjoyed on a desktop.
 
 <br>
+
 [Back to top](#table-of-contents)
+
 <br>
 
 ### Element testing
