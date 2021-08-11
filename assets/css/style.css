@@ -655,12 +655,9 @@ form .submit-button button:hover {
 
 /* Style custom 404 page */
 
-.fridge-div {
-    display: flex;
-}
-
-.fridge {
-    justify-content: center;
+.image-holder {
+    width: 100%;
+    text-align:center
 }
 
 .title-404,
@@ -668,3 +665,7 @@ form .submit-button button:hover {
     text-align: center;
     color: #000;
 } 
+
+.p-404 {
+    font-size: 1.5em;
+}
