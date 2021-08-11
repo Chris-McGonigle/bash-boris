@@ -4,9 +4,29 @@ Bash Boris is a fun satirical browser game based on the popular fairground and a
 
 ![Bash Boris](./assets/images/README-screenshots/device-screenshot.png)
 
-SO have a go and try you luck on the [live website](https://chris-mcgonigle.github.io/bash-boris/)
+So have a go and try you luck on the [live website](https://chris-mcgonigle.github.io/bash-boris/)
 
 ## Table of Contents
+
+1. [Site Design Considerations](#site-design-considerations)
+    * [Site Goals](#site-goals)
+    * [User Stories and Goals](#user-stories-and-goals)
+    * [Site Design Approach](#site-design-approach)
+    * [Game Visual Design and Font](#game-visual-design-and-font)
+2.  [Wireframes](#wireframes)
+    * [Mobile](#mobile)
+    * [Tablet](#tablet)
+    * [Desktop](#desktop)
+3. [Features](#features)
+    * [Initial Deployment Features](#initial-deployment-features)
+    * [Future Features](#future-features)
+4. [Technologies Used](#technologies-used)
+5. [Testing](#testing)
+    * [Technical Testing - links to dedicated testing document](./testing/TESTING.md)
+    * [Site Goals Testing](#site-goals-testing)
+    * [User Stories Testing](#user-stories-testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
 
 ## Site Design Considerations
 
@@ -29,6 +49,12 @@ SO have a go and try you luck on the [live website](https://chris-mcgonigle.gith
 * As a user, I want to be able to play different game modes.
 * As a user, I want to be able to record my scores.
 * As a user, I want to be able to toggle the volume on and off.
+
+<br>
+
+[Back to top](#table-of-contents)
+
+<br>
 
 ### Site Design Approach
 
@@ -54,6 +80,11 @@ In doing this, it enforces that the game is meant to be fun, humorous and satiri
 
 Finally, it was chosen to force the user to play the game horizontally. It was initially intended to be played on either device rotation, but on testing it was found that forcing users to play horizontally would ensure that mobile users can use the same background as desktop users, so again to maintain the theme that the game is trying to portray. 
 
+<br>
+
+[Back to top](#table-of-contents)
+
+<br>
 
 ## Wireframes
 
@@ -68,6 +99,12 @@ Finally, it was chosen to force the user to play the game horizontally. It was i
 ### Desktop version
 
 ![Desktop version](./assets/wireframes/desktop.png)
+
+<br>
+
+[Back to top](#table-of-contents)
+
+<br>
 
 ## Features
 
@@ -127,6 +164,12 @@ The footer conatins links to social media channels and the developer copyright m
 
 ![Footer](./assets/images/README-screenshots/footer.png)
 
+<br>
+
+[Back to top](#table-of-contents)
+
+<br>
+
 ### Future Features
 
 1. It would be advantageous to provide a high score capture mechanism. At the time of creation, a local storage method could have been used, but this would only store scores on an indiviual device, and would not function like a 'normal' high scores database would, taking in scores from various different users.
@@ -138,6 +181,12 @@ The footer conatins links to social media channels and the developer copyright m
 4. I would like to add a number of different images for the mole character, depending on whether or not the mole had been struck or not. Samples of what these images might look like are provided in the images folder but have not been used. This would add another level of complexity and professionalism to the game.
 
 5. If publishing on a commercial basis, space has been left either side of the game board. It is envisaged that this space is where advertisements would be placed, in the users view but not distracting from the main game board either.
+
+<br>
+
+[Back to top](#table-of-contents)
+
+<br>
 
 ## Technologies Used
 
@@ -159,6 +208,11 @@ The footer conatins links to social media channels and the developer copyright m
 * [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) tools were used to validate the HTML and CSS used.
 * [JSHint](https://jshint.com/) was used to validate the javascript used on site. 
 
+<br>
+
+[Back to top](#table-of-contents)
+
+<br>
 
 ## Testing
 
@@ -187,6 +241,12 @@ All technical testing carried out during the lifetime of this project can be fou
     * Result: TEST PART PASSED
         * All possible accessibility measures have been taken, including the use of labels and alt text where required. Due to the bature of the game, it would be difficult to program this for those people with visual impairment. one possibility would be for a voice to say the name of the chosen hole as it was selected, and the user could then use the keyboard to select the required hole. This is a feature that may be implemented in future.
 
+<br>
+
+[Back to top](#table-of-contents)
+
+<br>
+
 ### User Stories Testing
 
 * As a user, I want to easily ascertain the purpose of the website.
@@ -214,6 +274,12 @@ All technical testing carried out during the lifetime of this project can be fou
     * Result: TEST PASSED
         * Users have a toggle volume button in the top right of the screen at all times.
 
+<br>
+
+[Back to top](#table-of-contents)
+
+<br>        
+
 ## Deployment
 
 The site was deployed to GitHub pages.
@@ -226,6 +292,12 @@ The steps to deploy are as follows:
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - (https://chris-mcgonigle.github.io/bash-boris/)
+
+<br>
+
+[Back to top](#table-of-contents)
+
+<br>
 
 ## Credits
 
@@ -253,3 +325,9 @@ The live link can be found here - (https://chris-mcgonigle.github.io/bash-boris/
 | rotate-screen | The Noun Project |
 
 8. The audio for the whack sound effect was sourced from [Freesound.org](https://freesound.org/people/Natty23/sounds/) 
+
+<br>
+
+[Back to top](#table-of-contents)
+
+<br>
