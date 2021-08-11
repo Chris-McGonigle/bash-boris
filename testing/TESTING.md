@@ -154,6 +154,6 @@ In an attempt to solve the bug further instructions were added into the code to 
 
 On retest, when a user would go to play a secind game, this time the game will last for the whole 30 seconds time, but the countdown timer display would run at double time.
 
-Although not ideal, at least a user gets to play the game again for the whole 30 seconds, rather that having to har reload the page to get a full game time amount again. 
+Although not ideal, at least a user gets to play the game again for the whole 30 seconds, rather that having to hard reload the page to get a full game time amount again. 
 
 At this time the bug remains in the game, but now it does not prevent the user from playing again, which is the best option rather than leaving the original bug as was.
