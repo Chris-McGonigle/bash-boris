@@ -2,6 +2,10 @@
 
 Bash Boris is a fun satirical browser game based on the popular fairground and arcade game, Whack-A-Mole, which was first introduced in 1975. This javascript version is optimised for use on desktop, but can also be used via a mobile or tablet device.
 
+![Bash Boris](./assets/images/README-screenshots/device-screenshot.png)
+
+SO have a go and try you luck on the [live website](https://chris-mcgonigle.github.io/bash-boris/)
+
 ## Table of Contents
 
 ## Site Design Considerations
@@ -42,7 +46,7 @@ In keeping with the game theme, it was decided that the main backdrop for the ga
 
 Again instead of using standard holes, as the main game area was to be a street, it was decided to use man hole covers to maintain the game theme.
 
-The colours used reflect the colours used in the background, namely blues, reds and whites. This was specifcially chosen to mirror the colours of the UK national flag, again to keep the theme consistent throughout. Fredoka and Raleway were intially chosen as site fonts, with Raleway being the predominant font used. These fonts are modern, legible and make it easy for the user to understand any text areas in the site. 
+The colours used reflect the colours used in the background, namely blues, reds and whites. This was specifcially chosen to mirror the colours of the UK national flag, again to keep the theme consistent throughout. Fredoka and Raleway were chosen as site fonts, with Raleway being the predominant font used. These fonts are modern, legible and make it easy for the user to understand any text areas in the site. 
 
 For the moles, again on theme, a picture of the Prime Ministers head was used. To ensure the game remained fun and light hearted, and so as to not be accused of bullying or bad taste, the decision was taken to cartoonise all of the image elements. 
 
@@ -89,7 +93,7 @@ Counters
 
 Game Board
 
-* The main game board contains the six possible options for a mole to pop out from. the board also serves as the backdrop for the site pop ups.
+* The main game board contains the six possible options for a mole to pop out from. The board also serves as the backdrop for the site pop ups.
 
 ![Game board](./assets/images/README-screenshots/game-board.png)
 
@@ -169,7 +173,7 @@ All technical testing carried out during the lifetime of this project can be fou
         * Due to the nature of the game it is based on, it is plain from the site load that this is a whack a mole style game. The instructions given are succinct and easy to understand.    
 2. To provide a game that is responsive across all devices.
     * Result : TEST PART PASSED
-        * The game works well on all mobile screens with the exception of the iPhone 5, due to the nature of its very small screen in comparison to todays modals. As this is a near obsolete device it was decided to carry on wit the larger devices. It is however best played on a desktop to have maximum enjoyment from the game.
+        * The game works well on all mobile screens with the exception of the iPhone 5, due to the nature of its very small screen in comparison to todays models. As this is a near obsolete device it was decided to optimise for larger devices. It is however best played on a desktop to have maximum enjoyment from the game.
 3. To provide a game that entices the user to return to play again.
     * Result: TEST PASSED
         * The sound effects help add an element of fun to the game, along with the overall theme. I would submit that any game that allows users to vent their frustrations about people in power will keep users coming back for more...a destress if you will!!
